@@ -1,0 +1,78 @@
+---
+layout: page
+status: publish
+published: true
+title: About
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 47
+wordpress_url: http://192.168.123.112/?page_id=47
+date: '2007-02-23 22:32:13 +0000'
+date_gmt: '2007-02-23 22:32:13 +0000'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div style="float:right">
+<p><!-- Facebook --></p>
+<p align="center">
+<a href="http:&#47;&#47;www.facebook.com&#47;people&#47;Don_Thorp&#47;712472015" title="Don Thorp's Facebook profile" target=_TOP><img src="http:&#47;&#47;badge.facebook.com&#47;badge&#47;712472015.177.1604863295.png" border=0 alt="Don Thorp's Facebook profile"><&#47;a><&#47;p></p>
+<p><!-- Claim ID --></p>
+<p align="center">
+<a href="http:&#47;&#47;claimid.com&#47;donthorp" target="_blank"><img src="http:&#47;&#47;claimid.com&#47;images&#47;badges&#47;110x32_logo.gif" border="0" alt="Don Thorp" title="Don Thorp"&#47;><&#47;a><br />
+<&#47;p></p>
+<p><!-- Linked In --></p>
+<p align="center"><a href="http:&#47;&#47;www.linkedin.com&#47;in&#47;donthorp" target="_blank"><img src="http:&#47;&#47;www.linkedin.com&#47;img&#47;webpromo&#47;btn_viewmy_120x33.gif" width="120" height="33" border="0" alt="View Don Thorp's profile on LinkedIn"><&#47;a><&#47;p></p>
+<p><!--NetworkedBlogs Start--><br />
+<style type="text&#47;css"><!--.networkedblogs_widget a {text-decoration:none;color:#3B5998;font-weight:normal;}.networkedblogs_widget .networkedblogs_footer a {text-decoration:none;color:#FFFFFF;font-weight:normal;}--><&#47;style>
+<div id='networkedblogs_container' style='height:180px;padding-top:20px;'>
+<div id='networkedblogs_above'><&#47;div>
+<div id='networkedblogs_widget' style="width:120px;margin:0px auto;padding:0px 0px 3px 0px;font-family:'lucida grande',tahoma,Verdana,Arial,Sans-Serif;font-size:11px;font-weight:normal;text-decoration:none;background:#3B5998 none repeat scroll 0% 0%;border:none;line-height:13px;">
+<div id='networkedblogs_header' style="padding:1px 1px 2px 3px;text-align:left;"><a href='http:&#47;&#47;www.facebook.com&#47;apps&#47;application.php?id=9953271133' style="text-decoration:none;color:#FFFFFF;font-weight:normal;font-size:11px;background-repeat:no-repeat;">NetworkedBlogs<&#47;a><&#47;div>
+<div id='networkedblogs_body' style="background-color:#FFFFFF;color:#444444;padding:4px;border-left:1px solid #D8DFEA;border-right:1px solid #D8DFEA;text-align:left;">
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td><span style="color:#777777;">Blog:<&#47;span><&#47;td><&#47;tr><br />
+<tr>
+<td><a target="_blank" href="http:&#47;&#47;www.networkedblogs.com&#47;blog&#47;meandering_out_loud&#47;" style="text-decoration:none;color:#3B5998;">Meandering Out Loud<&#47;a><&#47;td><&#47;tr><br />
+<tr>
+<td>
+<div style="padding:0px;padding-top:5px;color:#777777;">Topics:<&#47;div><&#47;td><&#47;tr><br />
+<tr>
+<td><a target='_blank' href='http:&#47;&#47;www.networkedblogs.com&#47;topic&#47;Humor' style='text-decoration:none;color:#3B5998;'>Humor<&#47;a>, <a target='_blank' href='http:&#47;&#47;www.networkedblogs.com&#47;topic&#47;Trading' style='text-decoration:none;color:#3B5998;'>Trading<&#47;a>, <a target='_blank' href='http:&#47;&#47;www.networkedblogs.com&#47;topic&#47;Other' style='text-decoration:none;color:#3B5998;'>Other<&#47;a><&#47;td><&#47;tr><br />
+<tr>
+<td>
+<div id='networkedblogs_badges'>&nbsp;<&#47;div><&#47;td><&#47;tr><br />
+<tr>
+<td>
+<div style='padding:0px;text-align:center;'><a target="_blank" href="http:&#47;&#47;www.networkedblogs.com&#47;blog&#47;meandering_out_loud&#47;?ahash=42326f8baa4c75eb57332693580f6f74" style="text-decoration:none;color:#666666;font-weight:normal;font-size:10px;">Join my network<&#47;a><&#47;div><&#47;td><&#47;tr><&#47;table><&#47;div><&#47;div>
+<div id='networkedblogs_below' class='networkedblogs_below'><&#47;div><&#47;div><script type="text&#47;javascript"><!--<br />
+if(typeof(networkedblogs)=="undefined"){networkedblogs = {};networkedblogs.blogId=41605;networkedblogs.shortName="meandering_out_loud";}<br />
+--><&#47;script><script type="text&#47;javascript" src="http:&#47;&#47;widget.networkedblogs.com&#47;getwidget?bid=41605"><&#47;script><!--NetworkedBlogs End--></p>
+<p><!-- DandyID --></p>
+<p align="center">
+<script type='text&#47;javascript' src='http:&#47;&#47;www.dandyid.org&#47;beta&#47;badgewidget&#47;badgee&#47;user_id&#47;87'><&#47;script><br />
+<&#47;p></p>
+<p><&#47;div></p>
+<p>I'm being a bit lazy, I'll get this updated.</p>
+<h3>Blog Mentions<&#47;h3></p>
+<ul>
+<li>
+10 Mar 2009 by Nick McKinney (<a href="http:&#47;&#47;twitter.com&#47;nmckinney28" target="_blank">@nmckinney28<&#47;a>) on <a href="http:&#47;&#47;blahcreations.com&#47;everythingblah&#47;?p=40" target="_blank">EverythingBlah<&#47;a> for introducing him to the <a href="http:&#47;&#47;bit.ly&#47;cougarbarbie" target="_blank">Cougar Barbie<&#47;a> video.<br />
+<&#47;li></p>
+<li>
+08 Jan 2009 by David Niall Wilson (<a href="http:&#47;&#47;www.twitter.com&#47;david_n_wilson" target="_blank">@David_N_Wilson<&#47;a>) on <a href="http:&#47;&#47;www.tweepleblog.com&#47;2009&#47;01&#47;08&#47;tweepleblog-profiles-donthorp&#47;" target="_blank">Tweepleblog<&#47;a>.<br />
+<&#47;li>
+<li>
+01 Dec 2008 by a Guinea Pig (<a href="http:&#47;&#47;www.twitter.com&#47;lilpecan" target="_blank">@LilPecan<&#47;a>) on <a href="http:&#47;&#47;bawstonblog.blogspot.com&#47;2008&#47;12&#47;twitter-why-i-follow-stales-donthorp_01.html" _target="_blank">Bawstonblog<&#47;a>.<br />
+<&#47;li><br />
+<&#47;ul></p>
+<h3>Published<&#47;h3></p>
+<ul>
+<li>15 May 2009 - <a href="http:&#47;&#47;www.schmap.com&#47;?m=iphone#uid=dallas&sid=events_tradefairs&p=322879&i=322879_10" target="_blank">Schmap Dallas - Convention Center<&#47;><&#47;li><br />
+<&#47;ul></p>
+<h3>My Podio Subscriptions<&#47;h3><br />
+<script language="javascript" src="http:&#47;&#47;www.podiobooks.com&#47;jspb&#47;donthorp" type="text&#47;javascript" ><&#47;script></p>

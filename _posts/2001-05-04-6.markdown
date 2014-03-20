@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Visit to Quest Data Center
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 8
+wordpress_url: http://192.168.123.112/?p=8
+date: '2001-05-04 17:58:00 +0000'
+date_gmt: '2001-05-04 23:58:00 +0000'
+categories:
+- Technology
+tags:
+- musing
+comments: []
+---
+<p>
+					I visited a new Qwest data center near my home with Jim Milo from wirecrossing.com.<br />
+					This center opened 14 Feb 2001 and is only 10 minutes from my house. I can't<br />
+					consider moving servers into it yet, but it would be much closer to my house<br />
+					than driving 20+ miles to downtown Dallas. Everything is in a n+1 configuration<br />
+					making it pretty reliable.<br />
+				<&#47;p></p>

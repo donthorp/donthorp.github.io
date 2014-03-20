@@ -1,0 +1,49 @@
+---
+layout: page
+status: publish
+published: true
+title: Photos
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 206
+wordpress_url: http://donthorp.net/?page_id=206
+date: '2009-01-08 00:06:37 +0000'
+date_gmt: '2009-01-08 05:06:37 +0000'
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+<div id="smugmug-referrer">
+<a href="http:&#47;&#47;www.smugmug.com&#47;?referrer=l7T9pWsoJScVY" target="_blank" class="noicon">
+<div id="smugmug-logo">&nbsp;<&#47;div><&#47;a></p>
+<div id="smugmug-try"><a href="http:&#47;&#47;www.smugmug.com&#47;?referrer=l7T9pWsoJScVY" class="noicon">Try SmugMug<br &#47;>Save $5<&#47;a><&#47;div></p>
+<div id="smugmug-comment">
+The SmugMug <a href="http:&#47;&#47;www.smugmug.com&#47;help&#47;smugmug-affiliate-program" target="_blank">referral program<&#47;a> saves you $5 and helps me out with $10 if you sign up with with my referrer code.<&#47;div><br />
+<&#47;div><br />
+<img src="http:&#47;&#47;photos.donthorp.net&#47;photos&#47;452715726_YETYc-Ti.jpg" style="float: left; margin-right: 10px; margin-top: 10px;" &#47;></p>
+<div id="photo-page-content">
+<div style="margin-left: 100px; padding-bottom: 5px; ">
+<a href="http:&#47;&#47;photos.donthorp.net?referrer=l7T9pWsoJScVY" target="_blank" class="noicon"><img src="&#47;content&#47;images&#47;my_smugmug_photos.png" border="0" &#47;><&#47;a><br />
+<&#47;div></p>
+<p>
+I use <a href="http:&#47;&#47;www.smugmug.com&#47;?referrer=l7T9pWsoJScVY" target="_blank">SmugMug<&#47;a> as my gallery. Earlier sites used Gallery&#47;Gallery2. I liked it, but I was spending too much time on maintenance and WPG2, the WordPress plugin, wasn't tracking changes as quickly as I wanted.<&#47;p></p>
+<p>I eventually realized I didn't want to be in the gallery maintenance business so I needed service provider.<br />
+<&#47;p></p>
+<p>I chose SmugMug (<a href="http:&#47;&#47;www.smugmug.com&#47;aboutus&#47;about.mg" target="_blank">about<&#47;a>) over Flickr and Picassa for a several of reasons.<br />
+<&#47;p></p>
+<ol>
+<li>They are profitable and <em>debt-free<&#47;em><&#47;li>
+<li>They care about their customers<&#47;li>
+<li>They're accessible and communicate openly<&#47;li>
+<li>They provide technical details on implementation, hardware, architecture, etc. on the blog<&#47;li>
+<li>I like the software<&#47;li><br />
+<&#47;ol></p>
+<h3>All Photos<&#47;h3><br />
+To see all of my published photos visit my SmugMug galleries at <a href="http:&#47;&#47;photos.donthorp.net?referrer=l7T9pWsoJScVY" target="_blank">http:&#47;&#47;photos.donthorp.net<&#47;a><br />
+<&#47;div></p>
+<div style="margin-left: 100px; padding-bottom: 5px;">
+<a href="http:&#47;&#47;photos.donthorp.net?referrer=l7T9pWsoJScVY" target="_blank" class="noicon"><img src="&#47;content&#47;images&#47;my_smugmug_photos.png" border="0" &#47;><&#47;a><br />
+<&#47;div></p>

@@ -1,0 +1,57 @@
+---
+layout: post
+status: publish
+published: true
+title: "&hellip;In the Beginning"
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 6
+wordpress_url: http://192.168.123.112/?p=6
+date: '2001-05-03 17:00:00 +0000'
+date_gmt: '2001-05-03 22:00:00 +0000'
+categories:
+- Announcements
+tags: []
+comments: []
+---
+<p>
+					I've moved the items off the original site and into this new web log format.<br />
+					This format is the first step in the new weblog tool John and I are working<br />
+					on.<br />
+				<&#47;p></p>
+<h2>Welcome<&#47;h2></p>
+<p>
+					This is going to be my scratch pad for various things that interest me.<br />
+					As any new site, this one is going to be light on content for a while. In<br />
+					fact most of the content here is going to focus on <strong>Job Hunt 2001<&#47;strong>.<br />
+				<&#47;p></p>
+<h3>Current Notions<&#47;h3></p>
+<p>
+					It took a little while, but the site is now in a state where I can add content<br />
+					more quickly. I have temporarily given up on XInclude and just created a helper<br />
+					class to do the merging for me. The site is now running under Tomcat, it is<br />
+					built and published using Ant, and all of the content is now XML based!<br />
+				<&#47;p></p>
+<p>
+					I've started a resources page, but there is much to be done. I'll add entries<br />
+					and annotate it shortly. The next step I think will be to add an about the site<br />
+					page that describes the techniques I'm using for this site.<br />
+				<&#47;p></p>
+<h3>Job Hunt 2001<&#47;h3></p>
+<p>
+					As many of you know, my last employer <em>Vast Solutions<&#47;em> decided to go<br />
+					out of business without any warning. I guess that is always a risk with a<br />
+					startup, but <a href="http:&#47;&#47;www.johnmunsch.com" target="_blank">John<&#47;a><br />
+					and I thought we had done better research on this one. We were told that<br />
+					they had revenue, a burn rate that would last through Q3 or early Q4, and<br />
+					they were a spin-off of a larger corporation. I guess you never really know.<br />
+				<&#47;p></p>
+<p>
+					I'm reworking my online resume. After review by several folks, I expanded it<br />
+					to add more detailed information about what I've done over the years. It is<br />
+					sometimes difficult to capture all of the little things, but I think I cover<br />
+					the important ones. In the mean time, you can pull the<br />
+					<a href="docs&#47;DonThorp-RESUME.rtf">Word&#47;RTF<&#47;a> version.<br />
+				<&#47;p></p>
