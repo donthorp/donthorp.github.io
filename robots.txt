@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://donthorp.github.io/sitemap.xml 
