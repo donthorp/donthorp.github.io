@@ -1,0 +1,54 @@
+---
+layout: post
+status: publish
+published: true
+title: Stuff
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 14
+wordpress_url: http://192.168.123.112/?p=14
+date: '2001-06-06 07:30:00 +0000'
+date_gmt: '2001-06-06 12:30:00 +0000'
+categories:
+- Technology
+tags:
+- meandering
+---
+<p>
+					It has been a long time since I've been able to post anything. It is amazing<br />
+					where your time goes once summer gets here. Over the weekend I spent WAY to<br />
+					much time helping fix my youngest brother's computer. Not only did I have<br />
+					to reinstall Win98 on it, the motherboard's keyboard port freaked out<br />
+					requiring me to replace the motherboard. As<br />
+					with most hardware based problems, this one ended up costing me 8+ hours on<br />
+					Saturday.
+				</p>
+<h3>Agenda VR3</h3>
+<p>
+					Ever since becoming addicted to using my Palm III, I've developed a stronger<br />
+					interest in new handheld computing devices. I was an early<br />
+					adopter of the Franklin eBookMan (<em>I'm still waiting for the MS Reader<br />
+					software if anyone from Franklin is listening</em>) and still use it for<br />
+					reading. It appears that one of the Linux contenders<br />
+					<a href="http://www.agendacomputing.com/" target="blank">Agenda</a> is finally<br />
+					getting a product out the door. A great review<br />
+					<a href="http://linux.oreillynet.com/pub/a/linux/2001/05/18/agenda_pda.html?page=1" target="_blank">The Agenda VR3: Real Linux in a PDA</a>,<br />
+					written by Chris Halsall, is available on the Linux Devcenter of the<br />
+					O'Reilly Network. Not having played with one yet, this device sounds like it<br />
+					might have longterm viability if the software quality can approach that of<br />
+					the Palm platform.
+				</p>
+<h3>Python</h3>
+<p>
+					I've been slowly adding to my Python skills everytime I get the need to<br />
+					write a new script. It is still slow going, but I do feel like I'm getting<br />
+					better. As with most languages, the difficulty is in learning the libraries<br />
+					not the language. While putting a script together I ran across a great<br />
+					tool provided by <a href="http://www.activestate.com" target="_blank">ActiveState</a>,<br />
+					"<a href="http://aspn.activestate.com/ASPN/Python/Cookbook/" target="_blank"><br />
+					The Python Cookbook</a>". I was able to quickly find a couple of helpful routines<br />
+					to accelerate writing the script. It also looks like a place to pick up<br />
+					hints on using classes and cross-platform Python.
+				</p>

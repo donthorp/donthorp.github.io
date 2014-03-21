@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: Hotsheet
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 13
+wordpress_url: http://192.168.123.112/?p=13
+date: '2001-05-25 08:40:00 +0000'
+date_gmt: '2001-05-25 13:40:00 +0000'
+categories:
+- Announcements
+tags: []
+---
+<p>
+					John posted a file for<br />
+					<a href="http://sourceforge.net/projects/hotsheet" target="_blank">HotSheet</a> while we are<br />
+					waiting on sourceforge to get shell access working again.
+				</p>
+<p>
+					I've started a patterns section under links in resources.
+				</p>

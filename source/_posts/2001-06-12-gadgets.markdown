@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Gadgets
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 15
+wordpress_url: http://192.168.123.112/?p=15
+date: '2001-06-12 06:30:00 +0000'
+date_gmt: '2001-06-12 11:30:00 +0000'
+categories:
+- Technology
+tags: []
+---
+<p>
+					I ran across a very interesting article this morning on<br />
+					<a href="http://www.xml.com">XML.com</a> --<br />
+					<a href="http://www.xml.com/pub/a/2001/06/06/xsltspec.html" target="_blank"><br />
+					&quot;Transforming XML: Using the W3C XSLT Specification&quot;</a>.<br />
+					Written by Bob DuCharme, it explains<br />
+					several key terms in the <a href="http://www.w3.org/TR/xslt" target="_blank">XSLT Specification</a> and helps give you a fighting chance<br />
+					when trying to plow through the spec.
+				</p>
+<h3>Gadgets</h3>
+<p>
+					While trying to find a way to record radio programming at scheduled times,<br />
+					I ran across a <a href="http://www.allusb.com/products/P10671.html" target="_blank">USB Radio</a> on <a href="http://www.allusb.com" target="_blank">AllUSB</a>. Let's hope it gets off backorder and arrives at<br />
+					my door sometime soon.
+				</p>

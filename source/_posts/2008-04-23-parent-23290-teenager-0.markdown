@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+title: Parent 23,290 - Teenager 0
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 77
+wordpress_url: http://donthorp.net/post/77
+date: '2008-04-23 17:22:29 +0000'
+date_gmt: '2008-04-23 22:22:29 +0000'
+categories:
+- Parenthood
+tags:
+- meandering
+- Humor
+- twitter
+- leolaporte
+- parent
+- teenager
+---
+<p>I have to admit, I was part of the problem, but it is very hard to resist coming to the aid of another parent when challenged by a teenager. I woke up this morning and saw this tweet which I've edited to remove the actual phone number.</p>
+<blockquote><p>
+<span style="color:blue">T+0h</span> <a href="http://twitter.com/leolaporte" target="_blank">leolaporte</a> My son Hank doesn't believe I have so many followers. He says text him if you follow me here. 707 XXX-YYYY. Let's see how many msgs he gets.
+</p></blockquote>
+<p>Not long after, this tweet appeared.</p>
+<blockquote><p>
+<span style="color:blue">T+0h</span> <a href="http://twitter.com/leolaporte" target="_blank">leolaporte</a>  OK that was a really bad idea. ;-)
+</p></blockquote>
+<p>I woke up in this period and couldn't help but send my own text message to poor Hank. Telling him in fact that I did follow his dad on twitter. </p>
+<p>Several hours later.</p>
+<blockquote><p>
+<span style="color:blue">T+10h</span> <a href="http://twitter.com/leolaporte" target="_blank">leolaporte</a> Boy it sure is hard deleting old tweets. Pownce and Jaiku delete them right away. Guess Hank's phone will be unusable today.
+</p></blockquote>
+<p>The damage assessment will come.</p>
+<blockquote><p>
+<span style="color:blue">T+11h</span> <a href="http://twitter.com/leolaporte" target="_blank">leolaporte</a> I won't know the total number of text messages Hank received until I get the bill, but it was in the thousands. He had to turn off the phone
+</p></blockquote>
+<p>And finally,</p>
+<blockquote><p>
+<span style="color:blue">T+11h</span> <a href="http://twitter.com/leolaporte" target="_blank">leolaporte</a> I DDoSed my own son.
+</p></blockquote>
+<p>While it may be a little extreme you can't help but cheer just a little. How many times are parents challenged with no real way to prove a child wrong. Will it prevent Hank from challenging Dad in the future, probably not, he is a teenager after all. Will it make him think twice, just maybe.</p>
+<p>Oh and the score in the title, the number of <a href="http://twitter.com">Twitter</a> users following Leo that had the opportunity to send a nice encouraging text to Hank.</p>

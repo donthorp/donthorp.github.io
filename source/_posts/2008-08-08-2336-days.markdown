@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: 2336 Days
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 97
+wordpress_url: http://www.donthorp.net/?p=97
+date: '2008-08-08 08:08:59 +0000'
+date_gmt: '2008-08-08 13:08:59 +0000'
+categories:
+- Me
+tags:
+- meandering
+- musing
+- job
+- transition
+- hope
+- adventure
+---
+<h3>Goodbye</h3>
+<p>Today is a day of transition from the known to the unknown. Last week I decided that I needed to take a break for a much needed rest. Two thousand three hundred thirty-five days ago on March 18, 2002, I said hello as employee number 18; Today on August 8, 2008 I say farewell. A thank you and best wishes to each and every one of the talented people I had the opportunity to travel with on that part of my journey. </p>
+<h3>Inflection Points</h3>
+<p>Every so often in my life an inflection point appears and when it does, I've learned to embrace it as a doorway to a new adventure. They're not always joyous adventures, but like any good adventure they provide tales for telling. These tales fit me well at this stage of my life. There are several transitions that I might detail in the future, but I want to touch on several of them in this story.</p>
+<p>I can remember the first real transition and it's not a pleasant one. My dad passed away from cancer when I was 13 and a short while later mom told me that we'd have to move into town. I can remember clearly that my response was extreme frustration. I had lost dad and now I was losing access to all of the activities I loved: hunting, fishing, horseback riding, and even my chores. In a fury, I packed up all of my favorite items to get them out of my sight because I knew the enjoyable part of my life was done. It didn't take long for me to come to terms with the transition and once I did, I embraced it.</p>
+<p>I had a couple of education related inflection points. During Spring Break of my Junior year of High School, I visited my grandparents who were wintering in South Texas. I'm fuzzy on the exact timing, I can't remember if I decided before or after break, but I knew when I returned that there was nothing left for me in High School. When I got home, I took the GED and started summer school at ORU where my step-dad was a professor. </p>
+<p>I started off pre-med, the decided on pure Chemistry. I was enjoying the studies, but apparently I had approached another inflection point. I was standing in a lab three years later, having completed all of my Chemistry degree courses and one of my professors made a simple comment, "you are really good with computers, have you taken any courses?" Apparently that was the click of another door opening.</p>
+<p>I had started programming on the TRS-80 model I when I was 13 or 14 and spent a large portion of my free time working with computers, but I had never really considered it as a profession. Shortly after the comment, I realized that while I liked Chemistry, I loved working with computers and the variety they presented. Before the end of the semester I started the transfer process to TCU and as soon as the semester ended, moved to Fort Worth, TX. I hadn't even been accepted yet, but I knew that's where I would be.</p>
+<p>Near the end of my penultimate semester at TCU, Laura and I got engaged. Some of you are thinking OK, So? What you may not know is that we had only had 3 dates before the engagement. This transition was a little drawn out, but I graduated in May of 1987, started my first full time job in June of 1987, and got married on July 4th, 1987. For those of you trying to do the math, we've been married 21 years now. It may seem odd, but I knew that it was the correct door to step through. </p>
+<p>Near the end of the .COM bubble, one of my good friends Bill and I decided to form a company. We had been contracting together doing software for the Destination PC and decided that we should open an office, which is a pretty big commitment. After a while, we decided to self-fund an idea and brought in another one of my good friends, John. John and I continued contracting to pay the bills and help part time on the project while Bill worked full time on the project. The story is too long to tell in full, but the short version is, John and I threw ourselves into the collapsing job market so that Bill could stay with Select Payment Processing to guide it through several tough years to a successful acquisition. If all three of us had stayed, the company would not have been able to survive the collapse of the bubble. That acquisition is helping allow me to discover my next adventure.</p>
+<h3>The Unknown or There's a World Outside of Yonkers</h3>
+<p><code>[kml_flashembed movie="http://www.youtube.com/v/WbBnXryfjg4" width="425" height="350" wmode="transparent" /]</code></p>
+<p><br/><br />
+This inflection point is a little different than the others in that I have nothing planned except rest. "Out There", from Hello Dolly, has been on an endless playback loop in my head the last couple of weeks. I think it helps convey the hope that this change presents. Next week is a little busy, we're going to have a HUGE garage sale, but I see that as part of the resting process. </p>
+<p>My current short bio says "Overcommited, Developer, Entrepreneur, Part Time Trader". My new short bio? "Adventurer in Waiting". If you need to find me, look for a vista surveying a landscape of opportunity. Some where, out there, is the next doorway to adventure, I'm not sure where it is, but it's there. </p>

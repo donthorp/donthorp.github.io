@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: Lighthouse Project
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 9
+wordpress_url: http://192.168.123.112/?p=9
+date: '2001-05-06 20:40:00 +0000'
+date_gmt: '2001-05-07 02:40:00 +0000'
+categories:
+- Parenthood
+tags: []
+---
+<p>
+					What a weekend. Besides soccer and all of that stuff, the biggest project was Alex's<br />
+					&quot;Creativity Project&quot;. We spent a good part of the weekend building a<br />
+					lighthouse night light, but it turned out well. Of course it's due tomorrow, but there<br />
+					are just a few minor touches that we've been adding. I help with soldering and<br />
+					cutting of some of the materials, but he did most of it himself. I've got some<br />
+					digital photos, but the quality is really bad. I may post them later.
+				</p>

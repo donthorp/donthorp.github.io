@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: Quick Links - 20080302
+author: Don Thorp
+author_login: donthorp
+author_email: don@donthorp.net
+author_url: http://www.donthorp.net
+wordpress_id: 67
+wordpress_url: "/post/67"
+date: '2008-03-02 15:28:20 +0000'
+date_gmt: '2008-03-02 21:28:20 +0000'
+categories:
+- Humor
+tags:
+- meandering
+- Humor
+- video
+- youtube
+- nerd
+---
+<p>It was a YouTube morning.</p>
+<p>For all you nerds out there </p>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=wmRSuYIL1zc" target="video">1-900-NERD-GIRL  </a></li>
+<li><a href="http://www.youtube.com/watch?v=EBM854BTGL0" target="video">Star Wars according to a 3 year old</a></li>
+</ul>
+<p>In celebration of Jimmy Kimmel's 5th year on the air, his girlfriend gave him this video
+<ul>
+<li><a href="http://www.youtube.com/watch?v=Haf2Gvr4Tm8" target="video">Sarah Silverman "I'm F**king Matt Damon" on Jimmy Kimmel</a></li>
+</ul>
+<p>Jimmy returns the favor in
+<ul>
+<li><a href="http://www.youtube.com/watch?v=rGa29kPBbp4" target="video">Jimmy Kimmel's "I'm F*cking Ben Affleck"</a></li>
+</ul>
+<p>On the weird side and soccer related
+<ul>
+<li><a href="http://www.youtube.com/watch?v=9p4PKxEHxGM" target="video">The Jeannie Tate Show - Rob Riggle</a>.</li>
+</ul>
+<p>And finally in the priceless but lacking taste (couldn't use the single word for lacking taste) department
+<ul>
+<li><a href="http://www.youtube.com/watch?v=klcmX--IIzo" target="video">MasturDate - NSFW</a></li>
+<li><a href="http://www.youtube.com/watch?v=UnebVIdCDco" target="video">Sh*tfaced Shannon O'Malley's Anti-Sobriety Kit - NSFW</li>
+</ul>
