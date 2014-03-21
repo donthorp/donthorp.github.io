@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Howto | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Howto | Meandering Out Loud]]></title>
   <link href="http://donthorp.github.io/blog/categories/howto/atom.xml" rel="self"/>
   <link href="http://donthorp.github.io/"/>
-  <updated>2014-03-21T18:27:38-05:00</updated>
+  <updated>2014-03-21T18:57:07-05:00</updated>
   <id>http://donthorp.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Don Thorp]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -18,7 +18,7 @@
     <link href="http://donthorp.github.io/blog/2009/09/15/howto-using-a-magazine-as-a-media-player-stand/"/>
     <updated>2009-09-15T06:00:07-05:00</updated>
     <id>http://donthorp.github.io/blog/2009/09/15/howto-using-a-magazine-as-a-media-player-stand</id>
-    <content type="html"><![CDATA[<p>[caption id="attachment_447" align="alignright" width="250" caption="Using a magazine to hold your media player"]<img src="http://donthorp.github.io/content/uploads/2009/09/IMG_4461.JPG" alt="Using a magazine to hold your media player" title="Viewing Stand" width="250" height="175" class="size-full wp-image-447" style="margin-left:20px; margin-bottom:20px;" />[/caption]</p>
+    <content type="html"><![CDATA[<p><img src="http://donthorp.github.io/content/uploads/2009/09/IMG_4461.JPG" alt="Using a magazine to hold your media player" title="Viewing Stand" style="margin-left:20px; margin-bottom:20px;" /></p>
 
 
 <p>A magazine can be used to make an adhoc viewing stand for your media device. When I travel, flying mostly, I often want to watch movies or video podcasts during the trip. On one flight I was frustrated by having to hold the player so I tried to find something to rest the device on. </p>

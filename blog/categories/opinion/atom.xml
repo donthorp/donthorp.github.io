@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Opinion | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Opinion | Meandering Out Loud]]></title>
   <link href="http://donthorp.github.io/blog/categories/opinion/atom.xml" rel="self"/>
   <link href="http://donthorp.github.io/"/>
-  <updated>2014-03-21T18:27:38-05:00</updated>
+  <updated>2014-03-21T18:57:07-05:00</updated>
   <id>http://donthorp.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Don Thorp]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
