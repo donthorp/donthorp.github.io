@@ -23,7 +23,7 @@ tags:
 - touch
 - zune
 ---
-<p>[caption id="attachment_447" align="alignright" width="250" caption="Using a magazine to hold your media player"]<img src="/content/uploads/2009/09/IMG_4461.JPG" alt="Using a magazine to hold your media player" title="Viewing Stand" width="250" height="175" class="size-full wp-image-447" style="margin-left:20px; margin-bottom:20px;" />[/caption]</p>
+<p><img src="/content/uploads/2009/09/IMG_4461.JPG" alt="Using a magazine to hold your media player" title="Viewing Stand" style="margin-left:20px; margin-bottom:20px;" /></p>
 <p>A magazine can be used to make an adhoc viewing stand for your media device. When I travel, flying mostly, I often want to watch movies or video podcasts during the trip. On one flight I was frustrated by having to hold the player so I tried to find something to rest the device on. </p>
 <p>After failed attempts with various items from my travel bag, I decided I was ok with sacrificing an American Way magazine if it meant I could watch my content and banish hand cramps from my traveling experience.</p>
 <p>After a couple of minutes experimentation, I developed the technique described below. <i>For those of you, like me, that are squeamish about bending pages, this technique is completely reversible causing no lasting damage to the magazine.</i></p>
