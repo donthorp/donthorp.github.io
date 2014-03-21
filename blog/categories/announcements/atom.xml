@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Announcements | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/announcements/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[New Photos Page and WP-SmugMug]]></title>
+    <link href="http://donthorp.github.io/blog/2009/01/07/new-photos-page-and-wp-smugmug/"/>
+    <updated>2009-01-07T18:56:55-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/01/07/new-photos-page-and-wp-smugmug</id>
+    <content type="html"><![CDATA[<p>As part of my site re-organization and update, I discovered a new plugin, <a href="http://www.tow.com/projects/wordpress/wp-smugmug/" target="_blank">WP-SmugMug</a> written by <a href="http://www.tow.com/about/" target="_blank">Adam Tow</a>, that allows me to show recent photos from my SmugMug account on the site. Previously, the <b>Photos</b> menu item just took you directly to my photos, <a href="http://photos.donthorp.net" target="_blank">http://photos.donthorp.net</a>, on SmugMug. Now the link takes you to a local page that displays some recent photos and provides a link to all photos.</p>
+
+
+<p>I had a couple of small issues with the plugin, version 2.0.3 and WordPress 2.7, but that didn't stop me from working around it for photos.</p>
+
+
+<ol>
+<li>The "Send to Editor" button didn't work for me so I had to enter the short code by hand (FireFox 3.0 and Safari on OS X Leopard)</li>
+<li>When using the RSS feed for recently updated galleries, it didn't find the gallery images to display so I took that feature out.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Updated to Wordpress 2.7]]></title>
+    <link href="http://donthorp.github.io/blog/2009/01/04/updated-to-wordpress-27/"/>
+    <updated>2009-01-04T13:43:27-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/01/04/updated-to-wordpress-27</id>
+    <content type="html"><![CDATA[<p>This is a just a quick post to note that I've finished porting the site to Wordpress 2.7 and taking it into production. I haven't made any of the organizational changes that I want yet, but now that it's moved I may post some of the content that I've been saving up a lot faster.</p>
+
+
+<p>If you notice anything wrong with the site, please leave a comment on this post.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Upgrading the Site]]></title>
+    <link href="http://donthorp.github.io/blog/2008/05/24/upgrading-the-site/"/>
+    <updated>2008-05-24T09:37:00-05:00</updated>
+    <id>http://donthorp.github.io/blog/2008/05/24/upgrading-the-site</id>
+    <content type="html"><![CDATA[<p>Just a quick note to let you know that parts of the site will be missing, mostly pictures, as I upgrade to the latest WordPress. I seem to have gotten everything updated except for Gallery. I've always had a love hate relationship with it and I think the hate side has won. I'm going to be galleries up to smugmug, and probably putting post graphics locally. This is going to be a little painful, mostly for me.</p>
+
+
+<p>Pardon the dust.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome to the New donthorp.net]]></title>
+    <link href="http://donthorp.github.io/blog/2008/01/12/welcome-to-the-new-donthorpnet/"/>
+    <updated>2008-01-12T12:12:24-06:00</updated>
+    <id>http://donthorp.github.io/blog/2008/01/12/welcome-to-the-new-donthorpnet</id>
+    <content type="html"><![CDATA[<p>It took quite a while to get all the pieces put together, mostly because I couldn't figure out how to disable the new canonical URL stuff in Wordpress. Once I located the section of code to comment out, it started coming together pretty rapidly. As part of the conversion process, I also had to upgrade <a href="http://gallery.menalto.com/" target="_blank">Gallery</a> to Gallery2.</p>
+
+
+<p>The impetus for the rewrite was a desire to aggregate all of my <a href="http://en.wikipedia.org/wiki/Flotsam">flotsam and jetsam</a>.  I wanted to hopefully drive more traffic to the site so that I can generate a small amount of revenue from ads, books, etc. At a minimum, it'll help offset the cost of my toys.</p>
+
+
+<p>What I've discovered is that it's pretty easy to start pulling in the bits and pieces from Twitter, Magnolia, LibraryThing, et al. to make a semi-coherent website using the best of breed tools sprinkled around the net.</p>
+
+
+<p>I'm keeping <a href="http://v1.donthorp.net">www.donthorp.net - Version 1</a> up and running for the time being, as well as my blog on wordpress <a href="http://blog.donthorp.net">blog.donthorp.net</a>. </p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LOL.com Is Taking Shape]]></title>
+    <link href="http://donthorp.github.io/blog/2007/11/19/lolcom-is-taking-shape/"/>
+    <updated>2007-11-19T14:51:19-06:00</updated>
+    <id>http://donthorp.github.io/blog/2007/11/19/lolcom-is-taking-shape</id>
+    <content type="html"><![CDATA[<p>Ages and ages ago some friends and I were able to get the <a href="http://lol.com">lol.com</a> domain and have kept it all these years. A couple of years ago, when advertising started coming back, my business partner <a href="http://www.johnmunsch.com">John Munsch</a> and I started talking about how we could make it more than just a dead site and an email trap.</p>
+
+
+<p>A little over a year ago, we brought up a very simple site with a very limited set of jokes. We opened up a gmail account to accept jokes to place on the site, but it was too hard to keep up with the submissions, format them all, and get them live on the site. After the site had been up for a while, it became apparent that there was growth potential and it was worth getting an interactive site up and running.</p>
+
+
+<p>So for the last year or so John and I have been working to bring our initial vision to life. John has done most of the development for this site, I've done most of the IT. We have released version 2.0 of <a href="http://www.lol.com">LOL</a>.</p>
+
+
+<p>We're proud of our baby. If you have some time stop by and give it a look.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

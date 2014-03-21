@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: SocNet | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/socnet/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Decides We Have Enough Friends]]></title>
+    <link href="http://donthorp.github.io/blog/2009/05/12/twitter-decides-we-have-enough-followers/"/>
+    <updated>2009-05-12T18:08:21-05:00</updated>
+    <id>http://donthorp.github.io/blog/2009/05/12/twitter-decides-we-have-enough-followers</id>
+    <content type="html"><![CDATA[<p><img src="http://donthorp.github.io/content/uploads/2009/05/icon_a_down.png" alt="Tweeting Upside Down" title="icon_a_down" width="230" height="230" class="size-full wp-image-367" style="float:right; padding-right: 10px" />I don't normally bother with posting about service changes, but <a href="http://twitter.com/" target="_blank">Twitter</a> has made a bone headed move in their latest service change: <a href="http://blog.twitter.com/2009/05/small-settings-update.html#links" target="_blank">Small Settings Update</a>.</p>
+
+
+<p>A lot of experienced Twitter users <b>rely</b> on the one sided conversation feature to find <em>people worth following</em>. Seeing how people interact with others on twitter that I don't already follow have resulted in some of my best online friends. Many of which I've met in real life.</p>
+
+
+<p>So, Twitter, if you want to have the default setting be this new feature, then go ahead. But don't take away one of the truly innovative features that have made the service what it is today. I'm not ready to stop discovering new interesting people, I want those one-sided replies. Otherwise, how am I suppose to expand my horizons and interact with people I've yet to meet.</p>
+
+
+<div style="font-size: 130%; text-align: center">So <a href="http://search.twitter.com/search?q=%23fixreplies">#fixreplies</a>, please!</div>
+
+
+<p><br/></p>
+
+
+<blockquote style="font-size: 90%; background-color: #FFFFDD">
+<h3>Post from Twitter</h3>
+<h4><a href="http://blog.twitter.com/2009/05/small-settings-update.html#links" target="_blank">Small Settings Update</a></h4>
+<p>We've updated the Notices section of Settings to better reflect how folks are using Twitter regarding replies. Based on usage patterns and feedback, we've learned most people want to see when someone they follow replies to another person they follow—it's a good way to stay in the loop. However, receiving one-sided fragments via replies sent to folks you don't follow in your timeline is undesirable. Today's update removes this undesirable and confusing option.</p>
+<p>
+Confused? That's understandable and exactly why we made the update.</p>
+</blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Howto: Syncing TweetDeck Between Multiple Installs on OS X Using DropBox]]></title>
+    <link href="http://donthorp.github.io/blog/2009/02/21/howto-syncing-tweetdeck-between-multiple-installs-on-os-x-using-dropbox/"/>
+    <updated>2009-02-21T10:43:47-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/02/21/howto-syncing-tweetdeck-between-multiple-installs-on-os-x-using-dropbox</id>
+    <content type="html"><![CDATA[<p>A big thanks to <a href="http://h0bbel.p0ggel.org/about" target="_blank">Christian Mohn aka h0bbel</a> for his <a href="http://h0bbel.p0ggel.org/howto-sync-settings-between-multiple-tweetdeck-installs-on-windows" target="_blank">article</a> on syncing TweetDeck between multiple Windows installations. It quickly pointed me in the right direction on OS X. In many ways, it's much easier on OS X because it has soft links as part of its Unix heritage. Since I no longer use Windows computers for communication, I'll leave it to someone else to figure out how to keep multiple OSs in sync.</p>
+
+
+<h4>DropBox</h4>
+
+
+<p>The technique I use also happens to take advantage of <a href="http://www.getdropbox.com/" target="_blank">DropBox</a>. If you're not familiar with DropBox you should be. There are many ways to keep files in sync on multiple computers, some easier than others. I consider DropBox to be the easiest, most pain-free method I've found to date. DropBox provides a client integration piece that simply appears in your file system. Put a file in a folder and it will show up on all of your other machines.</p>
+
+
+<p>DropBox also allows you to create shared folders for transferring files between friends and co-workers. <a href="http://www.johnmunsch.com">John</a> and I use it fairly regularly to transfer files that aren't in our subversion repositories. I've also used DropBox to safely get files to and from my servers with their web interface. </p>
+
+
+<h4>TweetDeck on OS X</h4>
+
+
+<p>This howto assumes that you are already using TweetDeck on at least one computer. It should also be noted that this technique has the same limitation as h0bble's; You must only run TweetDeck on one machine at a time. If this becomes an issue for me, I've considered creating a launcher for TweetDeck that would place a lock file in the shared directory to help prevent accidental launches. The same launcher could also monitor a termination file to close the remote instance.</p>
+
+
+<p>TweetDeck stores your configuration files in your Preferences folder. As mentioned in h0bbel's article, a random number is part of the filename. I used the Unix command <em>find</em> to locate my TweetDeck files. Open a terminal window in your home directory and issue the following command.</p>
+
+
+<blockquote class="code"><p>
+find . -name TweetDeckFast.*
+</p></blockquote>
+
+
+<p>You will most likely see multiple results. You are interested in the folder <em>Library/Preferences/TweetDeckFast.[random number]</em>. Inside that folder is a sub-folder named <em>Local Store</em> that TweetDeck uses to store your configuration files. There are two files of interest in that folder.</p>
+
+
+<blockquote class="code"><p>
+<em>preferences_[twitter_username].xml</em><br />
+<em>td_26_[twitter_username].db</em>
+</p></blockquote>
+
+
+<h4>The Technique</h4>
+
+
+<p>The technique takes advantage of the soft links I mentioned earlier. For those unfamiliar with the term, a soft link is simply a name or alias that provides a direct link to another name anywhere in the file system. Soft links will be created to fool TweetDeck into thinking its files are where they have always been, when in fact, they're going to reside in the DropBox. DropBox will insure that the contents of the TweetDeck files are synchronized on all other computers where you have a DropBox as long as those machines have a network connection.</p>
+
+
+<p>The reason it is important to run TweetDeck on only one machine at a time is that DropBox will try and keep the files in sync thereby generating conflicts in the files. The other reason is that you will blow through your Twitter API limits in no time.</p>
+
+
+<h4>How</h4>
+
+
+<ol>
+<li>Stop TweetDeck on all computers</li>
+<li>Open a Terminal window in your home directory</li>
+<li>Create a folder in your DropBox.<br />
+<blockquote class="code"><p>
+mkdir Dropbox/TweetDeck
+</p></blockquote>
+</li>
+<li>Change to your TweetDeck Local Store<br />
+<blockquote class="code"><p>cd Library/Preferences/TweetDeckFast.*/Local\ Store</p></blockquote>
+</li>
+<li>Move your files to your DropBox<br />
+<blockquote class="code"><p>
+mv preferences*.xml ~/Dropbox/TweetDeck<br />
+mv td_26_*.db ~/Dropbox/TweetDeck
+</p></blockquote>
+</li>
+<li>Create your soft links. Please replace <em>[twitter_username]</em> with your twitter name. For example I used my twitter username <a href="http://twitter.com/donthorp" target="_blank">donthorp</a>.<br />
+<blockquote class="code"><p>
+ln -s /Users/$USER/Dropbox/TweetDeck/preferences_[twitter_username].xml&nbsp;preferences_[twitter_username].xml
+</p></blockquote>
+<blockquote class="code"><p>
+ln -s /Users/$USER/Dropbox/TweetDeck/td_26_[twitter_username].db&nbsp; td_26_[twitter_username].db
+</p></blockquote>
+</li>
+</ol>
+
+
+<p>On every other machine you want to use your synchronized TweetDeck files do the following</p>
+
+
+<ol>
+<li>Stop TweetDeck</li>
+<li>Open a Terminal window in your home directory</li>
+<li>Verify that DropBox has synchronized your TweetDeck files. You should see the .xml and .db files.<br />
+<blockquote class="code"><p>
+ls Dropbox/TweetDeck
+</p></blockquote>
+</li>
+<li>Change to your TweetDeck Local Store<br />
+<blockquote class="code"><p>cd Library/Preferences/TweetDeckFast.*/Local\ Store</p></blockquote>
+</li>
+<li>Remove your files so that you can create your symlink. Note: If you want to preserve them, copy them somewhere else before deleting.<br />
+<blockquote class="code"><p>
+rm preferences*.xml<br />
+rm td_26_*.db
+</p></blockquote>
+</li>
+<li>Create your soft links. Please replace <em>[twitter_username]</em> with your twitter name. For example I used my twitter username <a href="http://twitter.com/donthorp" target="_blank">donthorp</a>.<br />
+<blockquote class="code"><p>
+ln -s /Users/$USER/Dropbox/TweetDeck/preferences_[twitter_username].xml preferences_[twitter username].xml
+</p></blockquote>
+<blockquote class="code"><p>
+ln -d /Users/$USER/Dropbox/TweetDeck/td_26_[twitter_username].db td_26_[twitter_username].db
+</p></blockquote>
+</li>
+</ol>
+
+
+<p>Now you are ready to enjoy TweetDeck with all of your setting synchronized between machines. While I used DropBox for this solution, it is not required. Any method you have of moving the actual TweetDeck files between machines will suffice. Personally, using DropBox made it simple, efficient, and took advantage of my current workflow.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ColorWars: The Rainbow Team Needs You.]]></title>
+    <link href="http://donthorp.github.io/blog/2008/03/22/colorwars-the-rainbow-team-needs-you/"/>
+    <updated>2008-03-22T09:48:18-05:00</updated>
+    <id>http://donthorp.github.io/blog/2008/03/22/colorwars-the-rainbow-team-needs-you</id>
+    <content type="html"><![CDATA[<p>Ok, if you're on twitter, you need to jump over to the <a href="http://twitter.com/rainbowteam" target="_blank">@rainbowteam</a> and join by clicking follow. If you need to colorize your avatar <a href="http://en.wikipedia.org/wiki/Cali_Lewis" target="_blank">Cali Lewis</a> posted a <a href="http://www.bigtrip.tv/rainbowteam.png">rainbowteam.png</a> to help you modify your avatar.</p>
+
+
+<p>For the rest of you, <a href="http://www.zefrank.com" target="_blank">zefrank</a> wrote a post entitled  <a href="http://www.zefrank.com/zesblog/archives/2008/03/colorwar_2008.html" target="_blank">&quot;colorwar 2008&quot;</a> where he mused.</p>
+
+
+<blockquote><p>
+We used to play color wars at summer camp. Near the end of the year the entire camp would split up into colors, red, green, black, blue, etc... and compete in a series of events: tug of war, egg toss, basketball - sort of like the movie Meatballs, except all within the same camp.</p>
+<p>During the summer we were divided into discreet units, older kids here, younger kids there, Hiawathans by the lake Tawasenthans by the ropes course, etc... But when it came time for color wars you had no idea who would be on your team. It was a release, and it was viciously fun.</p>
+<p>So, for a while I've been thinking about how a color war might look online.
+</p></blockquote>
+
+
+<p><a href="http://corvida.ilumine.net/about/" target="_blank">Corvida</a> states <a href="http://corvida.ilumine.net/boredom-strikes-on-twitter-with-color/" target="_blank">Boredom Strikes On Twitter With Color!</a>. Her summary statement </p>
+
+
+<blockquote><p>If this isn’t boredom, I don’t know what is, but at least it gives us something to do.</p></blockquote>
+
+
+<p>While I'm not sure how this is going to play out, and I'm probably too busy anyway, I decided to join and and see what the fun might be. </p>
+
+
+<p>Twitter is a very interesting place.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

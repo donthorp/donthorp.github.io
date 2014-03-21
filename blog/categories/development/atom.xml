@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Development | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Titanium Android Development on Jaunty Jackalope]]></title>
+    <link href="http://donthorp.github.io/blog/2009/07/07/titanium-android-development-on-jaunty-jackalope/"/>
+    <updated>2009-07-07T07:59:26-05:00</updated>
+    <id>http://donthorp.github.io/blog/2009/07/07/titanium-android-development-on-jaunty-jackalope</id>
+    <content type="html"><![CDATA[<p><img src="http://donthorp.github.io/content/uploads/2009/07/picture-91.png" alt="picture-9" title="picture-91" class="alignleft size-full wp-image-421" />I spent a good part of the morning looking for an answer to a support request: <a href="http://support.appcelerator.net/discussions/support/83-run-on-device-not-working" target="_blank">Run on Device Not Working</a>. The details are documented on the <a href="" target="_blank">Titanium documentation</a> site in <a href="http://www.codestrong.com/timobile/howto/develop-for-android-on-jaunty-jackalope/" target="_blank">HowTo: Develop for Android on Jaunty Jackalope</a>.</p>
+
+
+<p><i>Update: I moved the instructions over to our documentation site where they're easier to find.</i>.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Java SE 6 Version 1.6.0_05 - Available for 64 Bit Intel Macs]]></title>
+    <link href="http://donthorp.github.io/blog/2008/05/02/java-se-6-version-160_05-available-for-64-bit-intel-macs/"/>
+    <updated>2008-05-02T13:08:20-05:00</updated>
+    <id>http://donthorp.github.io/blog/2008/05/02/java-se-6-version-160_05-available-for-64-bit-intel-macs</id>
+    <content type="html"><![CDATA[<p>This release of Java for Mac OS 10.5 adds Java SE 6 version 1.6.0_05 to your Mac.</p>
+
+
+<blockquote><p>
+This release does not change the default version of Java. This release is only for Mac OS X v10.5.2 and later, and should not be installed on earlier versions of Mac OS X. This release is for 64-bit Intel-based Macs only and cannot run on PowerPC-based or 32-bit Intel-based Macs.
+</p></blockquote>
+
+
+<p>- <a href="http://docs.info.apple.com/article.html?artnum=307403" target="_blank">Apple Article 307403</a></p>
+
+
+<ul>
+<li>Download page for <a href="http://www.apple.com/support/downloads/javaformacosx105update1.html" target="_blank">Java for Mac OS X 10.5 Update 1</a></li>
+<li><a href="http://developer.apple.com/releasenotes/Java/JavaLeopardUpdate1RN/Introduction/chapter_1_section_1.html" target="_blank">Release Notes</a></li>
+</ul>
+
+
+<p>Update: If you want to change the default Java runtime use the "Java Preferences" utility in <code>/Applications/Utilities/Java</code>. If you want to change it for command line shells you need to rearrange the order in the "Java Application Runtime Settings" section.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub - Homesteading]]></title>
+    <link href="http://donthorp.github.io/blog/2008/04/27/github-homesteading/"/>
+    <updated>2008-04-27T04:18:39-05:00</updated>
+    <id>http://donthorp.github.io/blog/2008/04/27/github-homesteading</id>
+    <content type="html"><![CDATA[<p>I'm too swamped to actual learn <a href="http://git.or.cz/" target="_blank">Git</a> at the moment, but I'm not going to let that stop me from claiming <a href="http://github.com/donthorp" target="_blank">my name</a> at <a href="http://github.com/" target="_blank">GitHub</a>.</p>
+
+
+<blockquote><p>
+What is it?</p>
+<p>Not only is Git the new hotness, it's a fast, efficient, distributed version control system ideal for the collaborative development of software.</p>
+<p>GitHub is the easiest (and prettiest) way to participate in that collaboration: fork projects, send pull requests, monitor development, all with ease. </p>
+<p>- from the github main page
+</p></blockquote>
+
+
+<p>The <a href="http://en.wikipedia.org/wiki/Git_(software)" target="_blank">Wikipedia page</a> for Git provides a good overview of the tool. </p>
+
+
+<p>There are some interesting features and solutions in Git, but to me I don't see a compelling reason to leave <a href="http://subversion.tigris.org/" target="_blank">Subversion</a> just yet. It took a long time for Subversion to bake before it was well integrated into various toolsets and worked well across many platforms. I don't have the luxury to not use many OSs, so I think it may be a while before Git is viable on Linux, Windows, and OS X and works with the tools I like.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Collecting Senders From Gmail Using POP3]]></title>
+    <link href="http://donthorp.github.io/blog/2007/12/09/collecting-senders-from-gmail-using-pop3/"/>
+    <updated>2007-12-09T03:27:23-06:00</updated>
+    <id>http://donthorp.github.io/blog/2007/12/09/collecting-senders-from-gmail-using-pop3</id>
+    <content type="html"><![CDATA[<p>Over the years, we've had a lot of people submit jokes for <a href="http://lol.com/">LOL</a>. Since we've recently upgraded the site to allow user submissions, we thought it would be nice to let them know they can now add their own jokes (Truth be told, we were slow adding them).</p>
+
+
+<p>I'm not going to go into great detail, but I thought I'd post a mini howto. <em>Note: I'm not supporting this code, but you are free to use it</em></p>
+
+
+<p>Firstly, <a href="http://ruby-lang.org">Ruby</a> 1.8's <a href="http://ruby-doc.org/stdlib/libdoc/net/pop/rdoc/classes/Net/POP3.html">POP3</a> implementation doesn't support SSL. stunnel provides encrypted channels for software that doesn't understand SSL. I run <a href="http://sources.redhat.com/cygwin">cygwin</a> on my Windows box to get access to essential tools. <em>Note: Configuring cygwin and installing it is beyond the scope of this entry, so ask <a href="http://www.google.com" target="_blank">Google</a> for help.</em></p>
+
+
+<p>A quick search for gmail and stunnel allowed me to cobble together the following configuration file called <strong>gmail-tunnel.txt</strong></p>
+
+
+<pre>
+client = yes
+debug = debug
+foreground = yes
+
+[pop3s]
+accept = 127.0.0.1:42
+connect = pop.gmail.com:995</pre>
+
+
+<p>Open up a command window and issue this command to start the tunnel:</p>
+
+
+<pre>
+C&gt;stunnel gmail-tunnel.txt</pre>
+
+
+<p>Save the following code in <strong>rpopget.rb</strong> and then execute it from another command window while the tunnel is active. It will write a file called <strong>address.csv</strong> that lists each address and the number of times that person sent mail.</p>
+
+
+<pre>
+#!/usr/bin/ruby
+
+require 'net/pop'
+
+HOST = 'localhost'
+USER = 'YOURACCOUT@gmail.com'
+PASS = 'YOURPASSWORD'
+
+$addr = {}
+
+def add_address(a)
+    $addr[a] = $addr[a].nil? ? 1 : $addr[a] + 1
+end
+
+Net::POP3.start(HOST, 42 , USER, PASS) do |pop|
+    if pop.mails.empty?
+        puts 'No mail'
+    else
+        pop.mails.each do |email|
+            $stderr.printf(".")
+
+            lines = email.header.split("rn")
+            lines.each do |l|
+                if l =~ /^From:/
+                    if l =~ /^.*/
+                        add_address($1)
+                    elsif l =~ /^From: (.*@.*)[ ]*/
+                        add_address($1)
+                    end
+                end
+            end
+        end
+    end
+end
+
+open("address.csv", "w") do |f|
+    f.puts "Address,Count"
+    $addr.each_pair do |a, c|
+        f.puts "#{a},#{c}"
+    end
+end</pre>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Consolidation in the Eclipse World]]></title>
+    <link href="http://donthorp.github.io/blog/2007/06/02/ruby-consolidation-in-the-eclipse-world/"/>
+    <updated>2007-06-02T04:58:18-05:00</updated>
+    <id>http://donthorp.github.io/blog/2007/06/02/ruby-consolidation-in-the-eclipse-world</id>
+    <content type="html"><![CDATA[<p>Apparently I've been a little out of touch. I've been happily using <a href="http://rubyeclipse.sourceforge.net/">RDT</a> with Eclipse and hadn't needed to change. While catching up on some reading, I ran across this press release &quot;<a href="http://www.aptana.org/rdt.html">Aptana to Merge RadRails and RDT into its Ajax-focused IDE</a>&quot;.</p>
+
+
+<p><img src="http://www.aptana.org/images/aptana_ide.gif" alt="Aptana Logo" style="padding-right:5px;float:left;"><a href="http://www.aptana.org/">Aptana</a> bills itself as "the leading Interactive Development Environment (IDE) for Web 2.0 and Ajax development". I took a moment and watched their screen cast and have to say it looks like a good start. As soon as I need to update my IDE again, I'll look at switching over. For now, I'm going to keep pluging away with my current version.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

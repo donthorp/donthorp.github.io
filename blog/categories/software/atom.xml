@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Howto: Get More Tweets Per Hour in Tweetdeck]]></title>
+    <link href="http://donthorp.github.io/blog/2009/02/26/howto-get-more-tweets-per-hour-in-tweetdeck/"/>
+    <updated>2009-02-26T15:52:11-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/02/26/howto-get-more-tweets-per-hour-in-tweetdeck</id>
+    <content type="html"><![CDATA[<p><img src="http://donthorp.github.io/content/uploads/2009/02/travelocity-nametag.jpg" alt="travelocity-nametag" title="travelocity-nametag" width="200" height="136" class="alignleft size-full wp-image-341" />I attended the <a href="http://twtvite.com/nfqdil" target="_blank">#dfwtweetup</a>, sponsored by Travelocity and Travel Studios, at <a href="http://www.awineexperience.com/default.aspx" target="_blank">Tastings</a> in Grapevine, TX this evening and had the good luck to learn a new hack. While sitting around talking about twitter search, <a href="http://blog.matthewjstevens.com/about/" target="_blank">Matthew J Stevens</a> aka <a href="http://twitter.com/GadgetVirtuoso">@GadgetVirtuoso</a> mentioned a technique he uses to effectively get more tweets per hour in <a href="http://www.tweetdeck.com/" target="_blank">Tweetdeck</a>.</p>
+
+
+<p>The API Settings Window in Tweetdeck allows you to change the frequency of updates against three APIs: all friends, replies, and direct messages. The genius in his technique is that you can set up a search in Tweetdeck for your replies and it doesn't count against your API limit.</p>
+
+
+<p>I want to get all messages and direct messages delivered to Tweetdeck so I set my frequencies as shown in the image below. I like to leave a little slack, just in case I want to temporarily use another client, so I set the timings to use 90% of my API limit.</p>
+
+
+<p>[caption id="attachment_335" align="aligncenter" width="355" caption="Tweetdeck Twitter API Settings"]<img src="http://donthorp.github.io/content/uploads/2009/02/picture-7.png" alt="Tweetdeck Twitter API Settings" title="Tweetdeck Twitter API Settings" width="355" height="366" class="size-full wp-image-335" />[/caption]</p>
+
+
+<p>The second step is to create a search query for replies. I chose to only search on <a href="http://twitter.com/donthorp" target="_blank">@donthorp</a> mostly because I didn't want to see my face in the column. To create this column, click on the search icon near the top (the magnifying glass) and then enter your twitter username in the search field. You can re-arrange your columns as you see fit. I chose to keep the <em>Replies</em> column and move it to the end and moved the new <em>@donthorp</em> column over where I had replies before.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gmail Labs Quick Links: Using Stored Searches]]></title>
+    <link href="http://donthorp.github.io/blog/2008/07/26/gmail-labs-quick-links-using-stored-searches/"/>
+    <updated>2008-07-26T04:29:47-05:00</updated>
+    <id>http://donthorp.github.io/blog/2008/07/26/gmail-labs-quick-links-using-stored-searches</id>
+    <content type="html"><![CDATA[<p>I use Gmail as a mail aggregator for many of my accounts. I honestly do strive for <a href="http://www.43folders.com/izero" target="_blank">Inbox Zero</a> but I'm not very consistent. As part of the quest, I've become relatively proficient at typing in <a href="http://mail.google.com/support/bin/answer.py?answer=7190&cbid=wz41m591lvqd&src=cb&lev=answer" target="_blank">advanced search</a> query strings, but it is a real time sink to hand enter those every day. Enter <a href="http://gmailblog.blogspot.com/2008/06/introducing-gmail-labs.html" target="_blank">Gmail Labs</a>.</p>
+
+
+<p>On June 5, 2008 Google announced Gmail Labs in the official <a href="http://gmailblog.blogspot.com/" target="_blank">Gmail Blog</a>. Being an early adopter, I turned labs on in Gmail almost immediately after reading the post but didn't look at the features closely. This morning I woke up and realized I was failing miserably in maintaining my inbox and decided to make a dent. The frustration led me to search gmail help to see if there was any way to save/bookmark advanced searches. That's when I stumbled on to Quick Links.</p>
+
+
+<p><img src="http://donthorp.github.io/content/uploads/2008/07/picture-2.png" alt="" title="Gmail Quick Links" width="649" height="94" class="aligncenter size-full wp-image-91" /></p>
+
+
+<p>Gmail Labs, being experimental, are not enabled by default. You may have to <a href="http://lifehacker.com/395285/manually-enable-gmail-labs-in-your-account" target="_blank">Manually Enable Gmail Labs in Your Account</a>. Once labs are enabled, you are allowed to control the features on an individual basis. As you can see if the photo above, I have Quick Links enabled.</p>
+
+
+<div style="text-align: center"><img src="http://donthorp.github.io/content/uploads/2008/07/picture-3.png" alt="Example of my personal Quick Links" title="My Quick Links" width="147" height="79" class="" style="text-align: center" /></div>
+
+
+<p>For example, the <a href="http://twitter.com" target="_blank">Twitter</a> Quick Link shows all of the email from Twitter in my Inbox using the search below. One nice touch is that clicking on the Quick Link re-populates the search field allowing you to specify additional search criteria.</p>
+
+
+<blockquote><p>
+from:twitter in:inbox
+</p></blockquote>
+
+
+<p>I know this feature won't solve all of my Inbox Zero issues, but I'm hoping it will help me quickly wade through items that I don't want processed by a rule and want to look at before archiving or deleting. Happy Cleaning!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Swing Threading]]></title>
+    <link href="http://donthorp.github.io/blog/2003/10/31/swing-threading/"/>
+    <updated>2003-10-31T02:36:30-06:00</updated>
+    <id>http://donthorp.github.io/blog/2003/10/31/swing-threading</id>
+    <content type="html"><![CDATA[<p>
+The article <a href="http://today.java.net/pub/a/today/2003/10/24/swing.html" target="_blank">Rethinking Swing Threading</a> by <a href="http://today.java.net/pub/au/5" target="_blank">Jonathan Simon</a> provides a good description on how to use event based programming to simplify your Swing development.</p>
+
+
+<p>
+I used a similar method in the past and it worked very well. My only addition to what he did was to add a Job system for handling the tasks. Basically, I wrote a Task for each operation that I wanted to perform in the system and handed it off to the job manager to execute and monitor.  In addition to being able to simplify the Swing code, it made it possible to easily annotate the task with any exceptions that occurred for use in displaying errors to the user.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tomcat Configuration]]></title>
+    <link href="http://donthorp.github.io/blog/2003/06/26/tomcat-configuration/"/>
+    <updated>2003-06-26T04:36:45-05:00</updated>
+    <id>http://donthorp.github.io/blog/2003/06/26/tomcat-configuration</id>
+    <content type="html"><![CDATA[<p>
+There is a great article at <a href="http://www.onjava.com">OnJava.com</a> called <a href="http://www.onjava.com/pub/a/onjava/2003/06/25/tomcat_tips.html" target="_blank">Top Ten Tomcat Configuration Tips</a>. It points out a method of adding new web applications without adding a context in server.xml.</p>
+
+
+<p>
+Basically, you can create an XML fragment that contains the context you would have placed in the server.xml and put it in a separate xml file. Name the file MyApp.xml, place it in the webapps directory and there you go. The docBase attribute can point to anywhere on your file system, so you don't have to place your application in the Tomcat webapps directory.</p>
+
+
+<p>
+Why is this important? If you have a web application and you want to write an installation program for it what do you do? You could write code to edit server.xml to add/remove/modify your context or you could simply copy/delete/replace MyApp.xml in the Tomcat webapps directory. On Windows, you could do a standard install, put your web application under <em>Program Files/My Company/MyApp</em> and copy your context file to <em>CATALINA_HOME/webapps</em>. You're uninstall process also becomes much simpler.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LTools - Reading and Writing Ext2 Partitions From Windows]]></title>
+    <link href="http://donthorp.github.io/blog/2002/09/19/ltools-reading-and-writing-ext2-partitions-from-windows/"/>
+    <updated>2002-09-19T10:50:22-05:00</updated>
+    <id>http://donthorp.github.io/blog/2002/09/19/ltools-reading-and-writing-ext2-partitions-from-windows</id>
+    <content type="html"><![CDATA[<p>
+A while back, I had a DDR module go bad and trash portions of my Win2k registry. Not a huge deal, Installed XP and copied all of the data over. The bigger problem was that I was dual booting to RedHat 7.3 using Grub. When I installed XP, it proceeded to wipe out my bootloader thereby making it impossible to boot into Linux (for the record, I haven't tried to restore the partition).</p>
+
+
+<p>
+These tools were all found at <a href="http://penguin.cz/~mhi/fs/Filesystems-HOWTO/Filesystems-HOWTO-6.html" target="_blank">FileSystems:HOWTO</a></p>
+
+
+<h4>LTools</h4>
+
+
+<p>
+On a whim today, I decided to see if there were any tools available for reading Ext2/Ext3 partitions from Windows. A little google magic and up pops  <a href="http://www.it.fht-esslingen.de/~zimmerma/software/ltools.htm" target="_blank">LTools</a>. I extracted it, ran it's setup program, started the Java version of the UI, pointed it the drive which contains the Ext2 partitions and viola! I got my data.  This product is great for browsing, but it won't let you do recursive copies.</p>
+
+
+<h4>Explore2fs</h4>
+
+
+<p>
+Failing to be able to copy the files I needed using LTools, I found <a href="http://uranus.it.swin.edu.au/~jn/linux/explore2fs.htm" target="_blank">Explore2fs</a>. While not as polished as LTools from a UI perspective, it does seem to be able to recursively copy files.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Howto: Syncing TweetDeck Between Multiple Installs on OS X Using DropBox - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="A big thanks to Christian Mohn aka h0bbel for his article on syncing TweetDeck between multiple Windows installations. It quickly pointed me in the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://donthorp.github.io/blog/2009/02/21/howto-syncing-tweetdeck-between-multiple-installs-on-os-x-using-dropbox">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:donthorp.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Howto: Syncing TweetDeck Between Multiple Installs on OS X Using DropBox</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-02-21T10:43:47-06:00" pubdate data-updated="true">Feb 21<span>st</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>A big thanks to <a href="http://h0bbel.p0ggel.org/about" target="_blank">Christian Mohn aka h0bbel</a> for his <a href="http://h0bbel.p0ggel.org/howto-sync-settings-between-multiple-tweetdeck-installs-on-windows" target="_blank">article</a> on syncing TweetDeck between multiple Windows installations. It quickly pointed me in the right direction on OS X. In many ways, it&#8217;s much easier on OS X because it has soft links as part of its Unix heritage. Since I no longer use Windows computers for communication, I&#8217;ll leave it to someone else to figure out how to keep multiple OSs in sync.</p>
+
+
+<h4>DropBox</h4>
+
+
+<p>The technique I use also happens to take advantage of <a href="http://www.getdropbox.com/" target="_blank">DropBox</a>. If you&#8217;re not familiar with DropBox you should be. There are many ways to keep files in sync on multiple computers, some easier than others. I consider DropBox to be the easiest, most pain-free method I&#8217;ve found to date. DropBox provides a client integration piece that simply appears in your file system. Put a file in a folder and it will show up on all of your other machines.</p>
+
+
+<p>DropBox also allows you to create shared folders for transferring files between friends and co-workers. <a href="http://www.johnmunsch.com">John</a> and I use it fairly regularly to transfer files that aren&#8217;t in our subversion repositories. I&#8217;ve also used DropBox to safely get files to and from my servers with their web interface. </p>
+
+
+<h4>TweetDeck on OS X</h4>
+
+
+<p>This howto assumes that you are already using TweetDeck on at least one computer. It should also be noted that this technique has the same limitation as h0bble&#8217;s; You must only run TweetDeck on one machine at a time. If this becomes an issue for me, I&#8217;ve considered creating a launcher for TweetDeck that would place a lock file in the shared directory to help prevent accidental launches. The same launcher could also monitor a termination file to close the remote instance.</p>
+
+
+<p>TweetDeck stores your configuration files in your Preferences folder. As mentioned in h0bbel&#8217;s article, a random number is part of the filename. I used the Unix command <em>find</em> to locate my TweetDeck files. Open a terminal window in your home directory and issue the following command.</p>
+
+
+<blockquote class="code"><p>
+find . -name TweetDeckFast.*
+</p></blockquote>
+
+
+<p>You will most likely see multiple results. You are interested in the folder <em>Library/Preferences/TweetDeckFast.[random number]</em>. Inside that folder is a sub-folder named <em>Local Store</em> that TweetDeck uses to store your configuration files. There are two files of interest in that folder.</p>
+
+
+<blockquote class="code"><p>
+<em>preferences_[twitter_username].xml</em><br />
+<em>td_26_[twitter_username].db</em>
+</p></blockquote>
+
+
+<h4>The Technique</h4>
+
+
+<p>The technique takes advantage of the soft links I mentioned earlier. For those unfamiliar with the term, a soft link is simply a name or alias that provides a direct link to another name anywhere in the file system. Soft links will be created to fool TweetDeck into thinking its files are where they have always been, when in fact, they&#8217;re going to reside in the DropBox. DropBox will insure that the contents of the TweetDeck files are synchronized on all other computers where you have a DropBox as long as those machines have a network connection.</p>
+
+
+<p>The reason it is important to run TweetDeck on only one machine at a time is that DropBox will try and keep the files in sync thereby generating conflicts in the files. The other reason is that you will blow through your Twitter API limits in no time.</p>
+
+
+<h4>How</h4>
+
+
+<ol>
+<li>Stop TweetDeck on all computers</li>
+<li>Open a Terminal window in your home directory</li>
+<li>Create a folder in your DropBox.<br />
+<blockquote class="code"><p>
+mkdir Dropbox/TweetDeck
+</p></blockquote>
+</li>
+<li>Change to your TweetDeck Local Store<br />
+<blockquote class="code"><p>cd Library/Preferences/TweetDeckFast.*/Local\ Store</p></blockquote>
+</li>
+<li>Move your files to your DropBox<br />
+<blockquote class="code"><p>
+mv preferences*.xml ~/Dropbox/TweetDeck<br />
+mv td_26_*.db ~/Dropbox/TweetDeck
+</p></blockquote>
+</li>
+<li>Create your soft links. Please replace <em>[twitter_username]</em> with your twitter name. For example I used my twitter username <a href="http://twitter.com/donthorp" target="_blank">donthorp</a>.<br />
+<blockquote class="code"><p>
+ln -s /Users/$USER/Dropbox/TweetDeck/preferences_[twitter_username].xml&nbsp;preferences_[twitter_username].xml
+</p></blockquote>
+<blockquote class="code"><p>
+ln -s /Users/$USER/Dropbox/TweetDeck/td_26_[twitter_username].db&nbsp; td_26_[twitter_username].db
+</p></blockquote>
+</li>
+</ol>
+
+
+<p>On every other machine you want to use your synchronized TweetDeck files do the following</p>
+
+
+<ol>
+<li>Stop TweetDeck</li>
+<li>Open a Terminal window in your home directory</li>
+<li>Verify that DropBox has synchronized your TweetDeck files. You should see the .xml and .db files.<br />
+<blockquote class="code"><p>
+ls Dropbox/TweetDeck
+</p></blockquote>
+</li>
+<li>Change to your TweetDeck Local Store<br />
+<blockquote class="code"><p>cd Library/Preferences/TweetDeckFast.*/Local\ Store</p></blockquote>
+</li>
+<li>Remove your files so that you can create your symlink. Note: If you want to preserve them, copy them somewhere else before deleting.<br />
+<blockquote class="code"><p>
+rm preferences*.xml<br />
+rm td_26_*.db
+</p></blockquote>
+</li>
+<li>Create your soft links. Please replace <em>[twitter_username]</em> with your twitter name. For example I used my twitter username <a href="http://twitter.com/donthorp" target="_blank">donthorp</a>.<br />
+<blockquote class="code"><p>
+ln -s /Users/$USER/Dropbox/TweetDeck/preferences_[twitter_username].xml preferences_[twitter username].xml
+</p></blockquote>
+<blockquote class="code"><p>
+ln -d /Users/$USER/Dropbox/TweetDeck/td_26_[twitter_username].db td_26_[twitter_username].db
+</p></blockquote>
+</li>
+</ol>
+
+
+<p>Now you are ready to enjoy TweetDeck with all of your setting synchronized between machines. While I used DropBox for this solution, it is not required. Any method you have of moving the actual TweetDeck files between machines will suffice. Personally, using DropBox made it simple, efficient, and took advantage of my current workflow.</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Don Thorp</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-02-21T10:43:47-06:00" pubdate data-updated="true">Feb 21<span>st</span>, 2009</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/socnet/'>SocNet</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://donthorp.github.io/blog/2009/02/21/howto-syncing-tweetdeck-between-multiple-installs-on-os-x-using-dropbox/" data-via="" data-counturl="http://donthorp.github.io/blog/2009/02/21/howto-syncing-tweetdeck-between-multiple-installs-on-os-x-using-dropbox/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2009/02/11/dell-to-expand-recycling-efforts/" title="Previous Post: Dell to Expand Recycling Efforts">&laquo; Dell to Expand Recycling Efforts</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/02/26/howto-get-more-tweets-per-hour-in-tweetdeck/" title="Next Post: Howto: Get More Tweets Per Hour in Tweetdeck">Howto: Get More Tweets Per Hour in Tweetdeck &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2010/06/11/blackberry/">Blackberry</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/09/15/howto-using-a-magazine-as-a-media-player-stand/">HowTo: Using a Magazine as a Media Player Stand</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/08/15/politicians-manipulation-and-the-healthcare-problem/">Politicians, Manipulation, and the Healthcare Problem</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/08/06/scandinavia-09-dfw-to-hel/">Scandinavia 09: DFW to HEL</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/07/07/titanium-android-development-on-jaunty-jackalope/">Titanium Android Development on Jaunty Jackalope</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

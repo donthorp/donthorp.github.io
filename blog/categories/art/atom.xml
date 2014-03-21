@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Art | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/art/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[T-Mobile G1: Accidental Wallpaper]]></title>
+    <link href="http://donthorp.github.io/blog/2008/12/04/t-mobile-g1-accidental-wallpaper/"/>
+    <updated>2008-12-04T07:10:01-06:00</updated>
+    <id>http://donthorp.github.io/blog/2008/12/04/t-mobile-g1-accidental-wallpaper</id>
+    <content type="html"><![CDATA[<p>I really like my <a href="http://www.t-mobileg1.com/" target="_blank">G1</a>, but I'm not really happy with the camera. It's slow to focus and takes forever to actually snap a picture. I did discover, during the writing of this post, that the camera button is actually a two stage button: Press part way and wait for the green focus light, then press all the way to capture. This technique speeds up the actual photo capture. But it is still slow. I'm hoping that the speed is a software issue that can be fixed with a patch rather than a hardware limitation of the device. That said, this slowness can actually be beneficial in producing artistic effects.</p>
+
+
+<p>We were out at dinner last night in a reasonably lit restaurant and I tried to snap a photo of Allison sitting across the table. She did her normal hide from the camera move and I ended up with an image that turned out to be great for use as wallpaper on the device. </p>
+
+
+<p><img src="http://donthorp.smugmug.com/photos/430228331_vMEZk-S.jpg" /></p>
+
+
+<p>The <a href="http://donthorp.smugmug.com/gallery/6736031_hUcsj/1/#430228331_vMEZk-A-LB" target="_blank">image</a> is available for personal use. A screen capture of my phone with the wallpaper is below. When setting the wallpaper, Android let's you choose a portion of the image. </p>
+
+
+<p><img src="http://donthorp.github.io/content/uploads/2008/12/wallpaper.png" alt="G1 Screen Capture" title="Screen capture of wallpaper on my G1" width="320" height="480" class="aligncenter size-full wp-image-128" /></p>
+
+
+<p>It turns out that it is not possible to perform on-device screen captures at this time, but it can be done using the DDMS tool that comes with the Android sdk. Reference links are provided below.</p>
+
+
+<h3>Reference Links</h3>
+
+
+<ul>
+<li><a href="http://www.mobilecrunch.com/2008/10/31/how-to-capture-the-screen-of-an-android-device/" target="_blank">How-to: Capture the screen of an Android device</a></li>
+<li><a href="http://code.google.com/android/reference/ddms.html" target="_blank">Using the Dalvik Debug Monitor Service (DDMS) Tool</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

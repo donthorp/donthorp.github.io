@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Technology | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dell to Expand Recycling Efforts]]></title>
+    <link href="http://donthorp.github.io/blog/2009/02/11/dell-to-expand-recycling-efforts/"/>
+    <updated>2009-02-11T09:14:16-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/02/11/dell-to-expand-recycling-efforts</id>
+    <content type="html"><![CDATA[<p>Dell is expanding its recycling efforts by adding six additional states to its drop off at GoodWill program and an online exchange program. <a href="http://www.reconnectpartnership.com/">Reconnectpartnership.com</a> has a list of dropoff locations.</p>
+
+
+<p>More information is available in <a href="http://gristmill.grist.org/story/2009/2/11/9485/96824" target="_blank">Dell to Pay</a> a post by <a href="http://gristmill.grist.org/user/Jonathan%20Hiskes">Jonathan Hiskes</a>.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Impression: T-Mobile G1]]></title>
+    <link href="http://donthorp.github.io/blog/2008/10/23/first-impression-t-mobile-g1/"/>
+    <updated>2008-10-23T17:30:54-05:00</updated>
+    <id>http://donthorp.github.io/blog/2008/10/23/first-impression-t-mobile-g1</id>
+    <content type="html"><![CDATA[<p>I had several people ask for my impressions of the G1 so I put a video together instead of spending a lot of time typing. In general, it's pretty good for a first generation device. I don't really like the bar with the roller obstructing access to the keyboard, but I'm starting to get use to it already. </p>
+
+
+<p><object width="320" height="240"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=2052291&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=2052291&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="320" height="240"></embed></object><br /><a href="http://vimeo.com/2052291?pg=embed&amp;sec=2052291">First Impressions: T-Mobile G1</a> from <a href="http://vimeo.com/user867450?pg=embed&amp;sec=2052291">Don Thorp</a> on <a href="http://vimeo.com?pg=embed&amp;sec=2052291">Vimeo</a>.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Greener Data Center at Home]]></title>
+    <link href="http://donthorp.github.io/blog/2008/08/02/greener-data-center-at-home/"/>
+    <updated>2008-08-02T04:49:59-05:00</updated>
+    <id>http://donthorp.github.io/blog/2008/08/02/greener-data-center-at-home</id>
+    <content type="html"><![CDATA[<p>Let's face it, I collect computers. Trust me, I don't want to be in the computer collection business, but some how I have several sitting in the closet and many up and running as I write. Being an entrepreneur, start-up engineer, software developer, etc, I need machines to get things done. So, I tend to treat the house like a personal data center. Several enabling technologies have emerged that have helped me start down-sizing my home data center to be much more energy and space efficient. At this point noise and heat are still my biggest issues.<img src="http://donthorp.github.io/content/uploads/2008/08/295.jpg" alt="Product photo of a blue Dell Studio Hybrid" title="Dell Studio Hybrid" width="200" height="200" class="alignnone size-full wp-image-96" style="float:right"/> </p>
+
+
+<p>In the past, I would buy the best computer I could build and install everything under the sun on it to try and keep costs down. Problem is each machine would start collecting more and more cruft and the next thing you know, you're wanting another box.</p>
+
+
+<p>Not too long ago, <a href="http://www.vmware.com/" target="_blank">VMWare</a> unshackled their server product and allowed me to start collapsing physical hardware on to virtual hardware. They also made their product run on Linux, including <a href="http://www.ubuntu.com" target="_blank">Ubuntu</a> my current distro of choice. The combination of VMWare Server with Ubuntu gave me the power to have a low/no cost solution for collapsing physical machines and easily re-using older hardware.</p>
+
+
+<p>Another benefit is that I could start building single purpose "machines". I could afford to run a Virtual Machine (VM) per application or have development specific VMs. A huge benefit was that you can migrate a VMs quickly to different hardware. I can, for example, take a web application from my "data center" drop it on my laptop and go mobile. When I get home, I simply move it back into the data center. When I buy a new host machine, I can easily move the VMs and recycle the old hardware without having to re-install all of the software. Not only have I started running server type applications in their own VM, I have also started creating single purpose VMs for desktop applications. Currently, I have a VM for my trading/investment software and I'm about to build a VM for my QuickBooks and other bookkeeping and business tasks.</p>
+
+
+<p>I know I'm behind, but I finally took a look at the <a href="http://www.dell.com/content/products/productdetails.aspx/desktop-studio-hybrid?c=us&cs=19&l=en&s=dhs" target="_blank">Dell Studio Hybrid</a>. There is a <a href="http://www.pcmag.com/article2/0,2704,2326613,00.asp" target="_blank">review</a> on PC Magazine. Seeing the form factor, I immediately wondered if it would run Ubuntu. Quick little search and I found the quote below at <a href="http://ideastorm.com/article/show/10091209/Can_we_get_Studio_Hybrid_with_Ubuntu" target="_blank">Dell's IdeaStorm</a>. </p>
+
+
+<p><img src="http://donthorp.github.io/content/uploads/2008/08/picture-2.png" alt="Posted 01 Aug 2008 on Dell&#039;s IdeaStorm. " title="Quote: We're not planning to sell Ubuntu on the Studio Hybrid, but it is a pretty nice little machine. The team did some testing on it with 8.04 several months back. Most of the hardware works bu default, except for video (had to switch to generic VESA driver). The system's Intel graphics chipset isn't supported in 8.04, but I would expect 8.10 to work very well." width="90%" height="90%" class="alignnone size-full wp-image-95" /></p>
+
+
+<p>To me, a home VM server needs:</p>
+
+
+<ol>
+<li>The capacity to have lots of RAM</li>
+<li>Enough storage for all of the VMs you want to host</li>
+<li>A fast, cool running multi-core CPU</li>
+<li>Runs quietly. Noise is tiring and annoying</li>
+<li>The ability to run Ubuntu and VMWare server</li>
+<li>Draw as little energy as possible</li>
+<li>One or more Gb ethernet adapters</li>
+</ol>
+
+
+<p>What it doesn't need:</p>
+
+
+<ol>
+<li>Fast graphics, I access the machines remotely</li>
+<li>Big form factor, I might want it in a closet.</li>
+<li>Proprietary anything, we want to run linux</li>
+<li>It should be relatively inexpensive</li>
+</ol>
+
+
+<p>The Studio Hybrid allows:</p>
+
+
+<ul>
+<li>Intel Core 2 Duo up to 2.6GHz</li>
+<li>4 GB RAM</li>
+<li>320 GB SATA Hard Drive</li>
+<li>Integrated video with DVI and HDMI</li>
+<li>Built-in wireless N and Gigabit Ethernet</li>
+</ul>
+
+
+<p>What I haven't been able to determine is how quiet it is. You can see from the <a href="http://www.dell.com/content/topics/topic.aspx/global/products/desktop_studio/includes/en/us/desktop-studio-hybrid-superview?c=us&cs=19&l=en&pageoverride=features_view6&s=dhs" target="_blank">back panel</a> that it does have a fan, so it can't be completely silent. But in all other aspects, it looks like it could be a viable platform for a VM host in my greener home data center.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ActiveX - Resident Evil]]></title>
+    <link href="http://donthorp.github.io/blog/2008/02/05/activex-resident-evil/"/>
+    <updated>2008-02-05T03:47:26-06:00</updated>
+    <id>http://donthorp.github.io/blog/2008/02/05/activex-resident-evil</id>
+    <content type="html"><![CDATA[<p>I've always wondered why ActiveX controls continue to be written. There are cases where you need access to the local machine to provide a useful service, but most things don't, at least not outside of a sandbox. There will always be security flaws in every type of software, but ActiveX controls seem to be the easiest target for the dark side. Most of my friends and I stopped using Internet Explorer years ago except for a few sites that either require IE (e.g. Outlook Web Mail) or other poorly written sites that won't even display data unless you're using IE.</p>
+
+
+<p>Browsing through my email today I ran across an article on eWeek, <a href="http://www.eweek.com/c/a/Security/ActiveX-Under-Seige-Facebook-MySpace-Image-Uploaders-Vulnerable/?kc=EWKNLNAV020508STR1" target="_blank">ActiveX Under Seige: Facebook, MySpace Image Uploaders Vulnerable</a> that once again highlights the problem. Here is a small excerpt:</p>
+
+
+<blockquote><p>
+"In tandem with the public release of this information, remote code-execution exploits targeting the Aurigma, Facebook, and Yahoo! issues were released. Each issue allows remote attackers to execute arbitrary code in the context of the application using the ActiveX control (typically Internet Explorer)," Kamerling said.</p>
+<p>In the absence of patches, Symantec recommends that IE users take "extreme caution" when browsing the Web and ensure that the browser is configured with the highest security settings.</p>
+<p>The US-CERT goes a step further, recommending that IE users completely disable ActiveX scripting in the browser.
+</p></blockquote>
+
+
+<p>The article also points you to a helpful guide from US-CERT on <a href="http://www.us-cert.gov/reading_room/securing_browser/browser_security.html#Internet_Explorer" target="_blank">Securing Your Web Browser</a>.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Plushie - Interactive Toy Modeling System]]></title>
+    <link href="http://donthorp.github.io/blog/2007/12/14/plushie-interactive-toy-modeling-system/"/>
+    <updated>2007-12-14T02:15:44-06:00</updated>
+    <id>http://donthorp.github.io/blog/2007/12/14/plushie-interactive-toy-modeling-system</id>
+    <content type="html"><![CDATA[<p>While I can't so myself, I have friends that can and enjoy doing so. <a href="http://www.den.rcast.u-tokyo.ac.jp/%7Eyuki/index.html">Yuki Mori</a> a Ph.D student, at Fine Digital Engineering Laboratory Research Center for Advanced Science and Technology (RCAST) The University of Tokyo, has developed a system called <a href="http://www.den.rcast.u-tokyo.ac.jp/%7Eyuki/plushie/index-e.html">Plushie</a> that enables you to design and create patterns for 3D plush toys.</p>
+
+
+<p><code>[kml_flashembed movie="http://www.youtube.com/v/rbQWxL-_8LU" width="425" height="350" wmode="transparent" /]</code></p>
+
+
+<p>Yuki Mori, Takeo Igarashi. Plushie: An Interactive Design System for Plush Toys. ACM Transactions on Graphics (Proceedings of SIGGRAPH 2007), vol.23, No.3, Article No.45, San Diego, USA, August 2007 (Link to the PDF is available on <a href="http://www.den.rcast.u-tokyo.ac.jp/%7Eyuki/plushie/index-e.html">her site</a>).</p>
+
+]]></content>
+  </entry>
+  
+</feed>

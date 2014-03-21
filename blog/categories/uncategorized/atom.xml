@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Uncategorized | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/uncategorized/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Blackberry]]></title>
+    <link href="http://donthorp.github.io/blog/2010/06/11/blackberry/"/>
+    <updated>2010-06-11T11:22:29-05:00</updated>
+    <id>http://donthorp.github.io/blog/2010/06/11/blackberry</id>
+    <content type="html"><![CDATA[<div id="waveframe" ></div>
+
+
+<p><script src="http://www.google.com/jsapi"></script><script type="text/javascript"> google.load("wave", "1"); google.setOnLoadCallback(function() { new google.wave.WavePanel({target: document.getElementById("waveframe")}).loadWave("googlewave.com!w+7-54p_0uA");}); </script></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Photos]]></title>
+    <link href="http://donthorp.github.io/blog/2009/01/07/photos/"/>
+    <updated>2009-01-07T18:06:37-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/01/07/photos</id>
+    <content type="html"><![CDATA[<div id="smugmug-referrer">
+<a href="http://www.smugmug.com/?referrer=l7T9pWsoJScVY" target="_blank" class="noicon">
+<div id="smugmug-logo">&nbsp;</div>
+<p></a></p>
+<div id="smugmug-try"><a href="http://www.smugmug.com/?referrer=l7T9pWsoJScVY" class="noicon">Try SmugMug<br />Save $5</a></div>
+<div id="smugmug-comment">
+The SmugMug <a href="http://www.smugmug.com/help/smugmug-affiliate-program" target="_blank">referral program</a> saves you $5 and helps me out with $10 if you sign up with with my referrer code.</div>
+</div>
+
+
+<p><img src="http://photos.donthorp.net/photos/452715726_YETYc-Ti.jpg" style="float: left; margin-right: 10px; margin-top: 10px;" /></p>
+
+
+<div id="photo-page-content">
+<div style="margin-left: 100px; padding-bottom: 5px; ">
+<a href="http://photos.donthorp.net?referrer=l7T9pWsoJScVY" target="_blank" class="noicon"><img src="http://donthorp.github.io/content/images/my_smugmug_photos.png" border="0" /></a>
+</div>
+<p>
+I use <a href="http://www.smugmug.com/?referrer=l7T9pWsoJScVY" target="_blank">SmugMug</a> as my gallery. Earlier sites used Gallery/Gallery2. I liked it, but I was spending too much time on maintenance and WPG2, the WordPress plugin, wasn't tracking changes as quickly as I wanted.</p>
+<p>I eventually realized I didn't want to be in the gallery maintenance business so I needed service provider.</p>
+<p>I chose SmugMug (<a href="http://www.smugmug.com/aboutus/about.mg" target="_blank">about</a>) over Flickr and Picassa for a several of reasons.</p>
+<ol>
+<li>They are profitable and <em>debt-free</em></li>
+<li>They care about their customers</li>
+<li>They're accessible and communicate openly</li>
+<li>They provide technical details on implementation, hardware, architecture, etc. on the blog</li>
+<li>I like the software</li>
+</ol>
+<h3>All Photos</h3>
+<p>To see all of my published photos visit my SmugMug galleries at <a href="http://photos.donthorp.net?referrer=l7T9pWsoJScVY" target="_blank">http://photos.donthorp.net</a>
+</div>
+
+
+<div style="margin-left: 100px; padding-bottom: 5px;">
+<a href="http://photos.donthorp.net?referrer=l7T9pWsoJScVY" target="_blank" class="noicon"><img src="http://donthorp.github.io/content/images/my_smugmug_photos.png" border="0" /></a>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Archives]]></title>
+    <link href="http://donthorp.github.io/blog/2008/01/06/archives/"/>
+    <updated>2008-01-06T10:22:53-06:00</updated>
+    <id>http://donthorp.github.io/blog/2008/01/06/archives</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[About]]></title>
+    <link href="http://donthorp.github.io/blog/2007/02/23/about/"/>
+    <updated>2007-02-23T16:32:13-06:00</updated>
+    <id>http://donthorp.github.io/blog/2007/02/23/about</id>
+    <content type="html"><![CDATA[<div style="float:right">
+<p><!-- Facebook --></p>
+<p align="center">
+<a href="http://www.facebook.com/people/Don_Thorp/712472015" title="Don Thorp's Facebook profile" target=_TOP><img src="http://badge.facebook.com/badge/712472015.177.1604863295.png" border=0 alt="Don Thorp's Facebook profile"></a></p>
+<p><!-- Claim ID --></p>
+<p align="center">
+<a href="http://claimid.com/donthorp" target="_blank"><img src="http://claimid.com/images/badges/110x32_logo.gif" border="0" alt="Don Thorp" title="Don Thorp"/></a></p>
+<p><!-- Linked In --></p>
+<p align="center"><a href="http://www.linkedin.com/in/donthorp" target="_blank"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_120x33.gif" width="120" height="33" border="0" alt="View Don Thorp's profile on LinkedIn"></a></p>
+<p><!--NetworkedBlogs Start--><br />
+<style type="text/css"><!--.networkedblogs_widget a {text-decoration:none;color:#3B5998;font-weight:normal;}.networkedblogs_widget .networkedblogs_footer a {text-decoration:none;color:#FFFFFF;font-weight:normal;}--></style>
+<div id='networkedblogs_container' style='height:180px;padding-top:20px;'>
+<div id='networkedblogs_above'></div>
+<div id='networkedblogs_widget' style="width:120px;margin:0px auto;padding:0px 0px 3px 0px;font-family:'lucida grande',tahoma,Verdana,Arial,Sans-Serif;font-size:11px;font-weight:normal;text-decoration:none;background:#3B5998 none repeat scroll 0% 0%;border:none;line-height:13px;">
+<div id='networkedblogs_header' style="padding:1px 1px 2px 3px;text-align:left;"><a href='http://www.facebook.com/apps/application.php?id=9953271133' style="text-decoration:none;color:#FFFFFF;font-weight:normal;font-size:11px;background-repeat:no-repeat;">NetworkedBlogs</a></div>
+<div id='networkedblogs_body' style="background-color:#FFFFFF;color:#444444;padding:4px;border-left:1px solid #D8DFEA;border-right:1px solid #D8DFEA;text-align:left;">
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td><span style="color:#777777;">Blog:</span></td>
+</tr>
+<tr>
+<td><a target="_blank" href="http://www.networkedblogs.com/blog/meandering_out_loud/" style="text-decoration:none;color:#3B5998;">Meandering Out Loud</a></td>
+</tr>
+<tr>
+<td>
+<div style="padding:0px;padding-top:5px;color:#777777;">Topics:</div>
+</td>
+</tr>
+<tr>
+<td><a target='_blank' href='http://www.networkedblogs.com/topic/Humor' style='text-decoration:none;color:#3B5998;'>Humor</a>, <a target='_blank' href='http://www.networkedblogs.com/topic/Trading' style='text-decoration:none;color:#3B5998;'>Trading</a>, <a target='_blank' href='http://www.networkedblogs.com/topic/Other' style='text-decoration:none;color:#3B5998;'>Other</a></td>
+</tr>
+<tr>
+<td>
+<div id='networkedblogs_badges'>&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style='padding:0px;text-align:center;'><a target="_blank" href="http://www.networkedblogs.com/blog/meandering_out_loud/?ahash=42326f8baa4c75eb57332693580f6f74" style="text-decoration:none;color:#666666;font-weight:normal;font-size:10px;">Join my network</a></div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id='networkedblogs_below' class='networkedblogs_below'></div>
+</div>
+<p><script type="text/javascript"><!--<br />
+if(typeof(networkedblogs)=="undefined"){networkedblogs = {};networkedblogs.blogId=41605;networkedblogs.shortName="meandering_out_loud";}<br />
+--></script><script type="text/javascript" src="http://widget.networkedblogs.com/getwidget?bid=41605"></script><!--NetworkedBlogs End--></p>
+<p><!-- DandyID --></p>
+<p align="center">
+<script type='text/javascript' src='http://www.dandyid.org/beta/badgewidget/badgee/user_id/87'></script></p>
+</div>
+
+
+<p>I'm being a bit lazy, I'll get this updated.</p>
+
+
+<h3>Blog Mentions</h3>
+
+
+<ul>
+<li>
+10 Mar 2009 by Nick McKinney (<a href="http://twitter.com/nmckinney28" target="_blank">@nmckinney28</a>) on <a href="http://blahcreations.com/everythingblah/?p=40" target="_blank">EverythingBlah</a> for introducing him to the <a href="http://bit.ly/cougarbarbie" target="_blank">Cougar Barbie</a> video.
+</li>
+<li>
+08 Jan 2009 by David Niall Wilson (<a href="http://www.twitter.com/david_n_wilson" target="_blank">@David_N_Wilson</a>) on <a href="http://www.tweepleblog.com/2009/01/08/tweepleblog-profiles-donthorp/" target="_blank">Tweepleblog</a>.
+</li>
+<li>
+01 Dec 2008 by a Guinea Pig (<a href="http://www.twitter.com/lilpecan" target="_blank">@LilPecan</a>) on <a href="http://bawstonblog.blogspot.com/2008/12/twitter-why-i-follow-stales-donthorp_01.html" _target="_blank">Bawstonblog</a>.
+</li>
+</ul>
+
+
+<h3>Published</h3>
+
+
+<ul>
+<li>15 May 2009 - <a href="http://www.schmap.com/?m=iphone#uid=dallas&sid=events_tradefairs&p=322879&i=322879_10" target="_blank">Schmap Dallas - Convention Center</></li>
+</ul>
+
+
+<h3>My Podio Subscriptions</h3>
+
+
+<p><script language="javascript" src="http://www.podiobooks.com/jspb/donthorp" type="text/javascript" ></script></p>
+
+]]></content>
+  </entry>
+  
+</feed>

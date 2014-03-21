@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>LTools - Reading and Writing Ext2 Partitions From Windows - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="A while back, I had a DDR module go bad and trash portions of my Win2k registry. Not a huge deal, Installed XP and copied all of the data over. The &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://donthorp.github.io/blog/2002/09/19/ltools-reading-and-writing-ext2-partitions-from-windows">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:donthorp.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">LTools - Reading and Writing Ext2 Partitions From Windows</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2002-09-19T10:50:22-05:00" pubdate data-updated="true">Sep 19<span>th</span>, 2002</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>
+A while back, I had a DDR module go bad and trash portions of my Win2k registry. Not a huge deal, Installed XP and copied all of the data over. The bigger problem was that I was dual booting to RedHat 7.3 using Grub. When I installed XP, it proceeded to wipe out my bootloader thereby making it impossible to boot into Linux (for the record, I haven&#8217;t tried to restore the partition).</p>
+
+
+<p>
+These tools were all found at <a href="http://penguin.cz/~mhi/fs/Filesystems-HOWTO/Filesystems-HOWTO-6.html" target="_blank">FileSystems:HOWTO</a></p>
+
+
+<h4>LTools</h4>
+
+
+<p>
+On a whim today, I decided to see if there were any tools available for reading Ext2/Ext3 partitions from Windows. A little google magic and up pops  <a href="http://www.it.fht-esslingen.de/~zimmerma/software/ltools.htm" target="_blank">LTools</a>. I extracted it, ran it&#8217;s setup program, started the Java version of the UI, pointed it the drive which contains the Ext2 partitions and viola! I got my data.  This product is great for browsing, but it won&#8217;t let you do recursive copies.</p>
+
+
+<h4>Explore2fs</h4>
+
+
+<p>
+Failing to be able to copy the files I needed using LTools, I found <a href="http://uranus.it.swin.edu.au/~jn/linux/explore2fs.htm" target="_blank">Explore2fs</a>. While not as polished as LTools from a UI perspective, it does seem to be able to recursively copy files.</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Don Thorp</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2002-09-19T10:50:22-05:00" pubdate data-updated="true">Sep 19<span>th</span>, 2002</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/software/'>Software</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://donthorp.github.io/blog/2002/09/19/ltools-reading-and-writing-ext2-partitions-from-windows/" data-via="" data-counturl="http://donthorp.github.io/blog/2002/09/19/ltools-reading-and-writing-ext2-partitions-from-windows/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2002/09/04/software-remote-desktop-client/" title="Previous Post: Software: Remote Desktop Client">&laquo; Software: Remote Desktop Client</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2003/02/26/dictionary-of-computer-terms/" title="Next Post: Dictionary of Computer Terms">Dictionary of Computer Terms &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2010/06/11/blackberry/">Blackberry</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/09/15/howto-using-a-magazine-as-a-media-player-stand/">HowTo: Using a Magazine as a Media Player Stand</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/08/15/politicians-manipulation-and-the-healthcare-problem/">Politicians, Manipulation, and the Healthcare Problem</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/08/06/scandinavia-09-dfw-to-hel/">Scandinavia 09: DFW to HEL</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/07/07/titanium-android-development-on-jaunty-jackalope/">Titanium Android Development on Jaunty Jackalope</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

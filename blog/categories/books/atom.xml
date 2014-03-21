@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Books | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/books/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Free Audiobook: The 7 Habits of Highly Effective People]]></title>
+    <link href="http://donthorp.github.io/blog/2009/02/02/free-audiobook-the-7-habits-of-highly-effective-people/"/>
+    <updated>2009-02-02T07:04:34-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/02/02/free-audiobook-the-7-habits-of-highly-effective-people</id>
+    <content type="html"><![CDATA[<p><iframe src="http://rcm.amazon.com/e/cm?t=donthorp-20&o=1&p=8&l=as1&asins=0743269519&md=10FE9736YVPPT7A0FBG2&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px; float:right; padding-left: 10px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>As a long time Audible listener, I'm always looking to add new books to my library. Occasionally, Audible has a promotion and gives away a free book to existing members as well as non-members. While catching up on <a href="http://twit.tv/twit">This Week In Tech</a> podcasts, I heard that <a href="http://audible.com" target="_blank">Audible.com</a> in conjunction with <a href="http://twit.tv" target="_blank">TWIT.tv</a> is giving away <a href="http://en.wikipedia.org/wiki/Steven_R._Covey">Steven R. Covey's</a> <a href="http://bit.ly/3kb3dM" target="_blank">The 7 Habits of Highly Effective People</a>.</p>
+
+
+<p><a href="http://bit.ly/3kb3dM" target="_blank">Download for FREE</a>. </p>
+
+
+<p>This offer is valid for non-members and current members. I believe I heard Leo say the offer expires February 15th. </p>
+
+
+<p>If you're not into audiobooks I've provided a link to the book on Amazon where you can order it in print form. Click on the "Buy from Amazon.com" button and order it today.</p>
+
+
+<div style="clear:both;">&nbsp;</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Released! - the Ruport Book]]></title>
+    <link href="http://donthorp.github.io/blog/2008/01/15/released-the-ruport-book/"/>
+    <updated>2008-01-15T16:09:44-06:00</updated>
+    <id>http://donthorp.github.io/blog/2008/01/15/released-the-ruport-book</id>
+    <content type="html"><![CDATA[<p><a href="http://www.lulu.com/content/1700117" target="_blank"><img src="http://www.lulu.com/author/display_thumbnail.php?fCID=1700117&fSize=320_&1200454554" border="0" style="float:right; padding-left: 10px; "/></a></p>
+
+
+<p>I just received a notification email that the <a href="http://ruportbook.com/" target="_blank">Ruport Book 1.0.0</a> has been released and is available on Lulu as <a href="http://www.lulu.com/content/1700117">&quot;The Ruport Book&quot;</a>. </p>
+
+
+<p>I'm working on a project that needs to process various items and present them in xml and html. I spent several hours with the beta version of the book this last weekend and found it to be very helpful in getting up and running. The book makes it easier to understand <a href="http://rubyreports.org/" target="_blank">Ruport</a> and it's a worthy addition to your bookshelf.</p>
+
+
+<p>At the time of release, the PDF version of the book is listed for $8.50 and the paperback book is listed for $30.00. I'm looking forward to my physical copy arriving in a week or so. I purchased a bundle in advance to receive both items.</p>
+
+
+<p>If you do any reporting you should really consider purchasing this book and supporting the project. That being said, they do provide a free version of the text at the ruby reports website.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[O’Reilly Animals]]></title>
+    <link href="http://donthorp.github.io/blog/2004/01/28/oreilly-animals/"/>
+    <updated>2004-01-28T08:44:32-06:00</updated>
+    <id>http://donthorp.github.io/blog/2004/01/28/oreilly-animals</id>
+    <content type="html"><![CDATA[<p><img hspace="5" src="http://www.oreilly.com/catalog/covers/jenut3.s.gif" align="left"> A co-worker dropped in and picked up one of my <a href="http://www.oreilly.com" target="_blank">O'Reilly</a> books and mused outloud about a cover with an alligator on it. It took a little bit of digging, but I finally found <a href="http://www.oreilly.com/animals.html" target="_blank">The Animal Menagerie</a>, a listing of all the books and their animals. </p>
+
+
+<p>In case you're wondering, the book with an alligator is <a href="http://www.oreilly.com/catalog/jenut3/index.html" target="_blank">Java Examples in a Nutshell</a>. It's not one that I have in my personal library. I'm at the point where adding many more books would require an addition on the house. </p>
+
+]]></content>
+  </entry>
+  
+</feed>

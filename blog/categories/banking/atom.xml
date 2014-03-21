@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Banking | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/banking/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Banking: The Positive Pay System]]></title>
+    <link href="http://donthorp.github.io/blog/2009/01/08/banking-the-positive-pay-system/"/>
+    <updated>2009-01-08T10:28:10-06:00</updated>
+    <id>http://donthorp.github.io/blog/2009/01/08/banking-the-positive-pay-system</id>
+    <content type="html"><![CDATA[<p><img src="http://donthorp.github.io/content/uploads/2009/01/banking.gif" alt="banking" title="banking" width="79" height="49" class="alignleft size-full wp-image-228" />I learned something new today about a system called "Positive Pay" that's used in the banking system. It's one of those systems that you just wouldn't notice until something went wrong. </p>
+
+
+<p>Earlier today, I tried depositing a check from a company only to have the the teller inform me that it couldn't be deposited today. When I asked why, she told me it was due to the fact that it wasn't in the system. Once I got home and looked up the number for the company, I called them, explained the situation, and they simply retransmitted the check details. </p>
+
+
+<p>Since I helped build an ACH processing solution, I was curious about what this system entailed. Descriptions from several locations appeared using this <a href="http://www.google.com/search?q=positive+pay" target="_blank">Google search</a>. One of the better descriptions was from <a href="http://www.positivepay.net/index.htm" target="_blank">SafeChecks</a>. Here is an excerpt.</p>
+
+
+<blockquote><p>
+Positive Pay is an automated fraud detection tool offered by the Cash Management Department of most banks. In its simplest form, it is a service that matches the <b>account number</b>, <b>check number</b> and <b>dollar</b> amount of each check presented for payment against a list of checks previously authorized and issued by the company. All three components of the check must match exactly or it will not pay.
+</p></blockquote>
+
+
+<p>The purpose of this system is to help prevent check fraud and the simplicity of it is encouraging. I can only hope that during transmittal they take the time to digitally sign the transactions.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

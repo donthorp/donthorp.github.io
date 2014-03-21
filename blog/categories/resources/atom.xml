@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Resources | My Octopress Blog]]></title>
+  <link href="http://donthorp.github.io/blog/categories/resources/atom.xml" rel="self"/>
+  <link href="http://donthorp.github.io/"/>
+  <updated>2014-03-21T18:27:38-05:00</updated>
+  <id>http://donthorp.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dictionary of Computer Terms]]></title>
+    <link href="http://donthorp.github.io/blog/2003/02/26/dictionary-of-computer-terms/"/>
+    <updated>2003-02-26T06:03:20-06:00</updated>
+    <id>http://donthorp.github.io/blog/2003/02/26/dictionary-of-computer-terms</id>
+    <content type="html"><![CDATA[<h3>Dictionary of Computer Terms</h3>
+
+
+<p>While researching a project for work, I needed to get definitions of some computer terms. Not being comfortable with my connotation of the terms, I used <a href="http://www.google.com" target="_blank">Google</a> to search for other definitions.</p>
+
+
+<p>After spending a fair amount of time googling, I ran across this gem: <a href="http://whatis.techtarget.com/" target="_blank">whatis?com</a>.<br />
+According to whatis, it contains "Definitions for thousands of the most current IT-related words". Most importantly, it provided the definitions of the terms I was trying to clarify.</p>
+
+]]></content>
+  </entry>
+  
+</feed>
